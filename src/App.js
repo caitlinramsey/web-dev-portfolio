@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          See My Works
+          See My Work
         </a>
       </header>
     </div>
