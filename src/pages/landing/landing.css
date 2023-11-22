@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .landing-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .landing-header {
   background: url(../../assets/arctic-fox.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -28,16 +22,88 @@
   color: white;
 }
 
-.home-link {
-  color: #61dafb;
+.main-landing {
+  width:100%;  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
 }
 
-@keyframes landing-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+h1 {
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE; 
+  font-size: 4rem;
+}
 
-  to {
-    transform: rotate(360deg);
+.roller {
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D3557;
+}
+
+.roller #rolltext {
+  font-size: 3rem;
+  position: absolute;
+  top: 0;
+  animation: slide 8s infinite;  
+}
+
+@keyframes slide {
+  0%{
+    top:0;
   }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  h1{
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE; 
+  font-size: 2.125rem;
+}
+  
+  .roller{
+  height: 2.6rem; 
+  line-height: 2.125rem;  
+  }
+  
+  .roller #rolltext {  
+  animation: slide-mob 10s infinite;  
+}
+  
+  @keyframes slide-mob {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -2.125rem;    
+  }
+  50%{
+    top: -4.25rem;
+  }
+  72.5%{
+    top: -6.375rem;
+  }
+}
+}
+
+.home-link {
+  color: #000000;
 }
