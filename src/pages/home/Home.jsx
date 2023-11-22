@@ -1,4 +1,3 @@
-import Resume from "./Resume";
 import "./home.css";
 import Container from "react-bootstrap/Container";
 import Skills from "../skills/Skills";
@@ -14,7 +13,6 @@ export default function Home() {
             <h4 className="pt-3">
               Full-Stack Developer/Graphic Designer/Photographer
             </h4>
-            <Resume />
             <hr
               style={{
                 background: "black",
