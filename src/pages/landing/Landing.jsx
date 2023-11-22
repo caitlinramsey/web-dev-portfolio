@@ -1,6 +1,5 @@
-import logo from "../../logo.svg";
+import logo from "../../ddc.svg";
 import "./landing.css";
-import Home from '../home/Home'
 
 function Landing() {
   return (
@@ -13,11 +12,10 @@ function Landing() {
         </p>
         <a
           className="home-link"
-          href="Home"
-          target="_blank"
+          href="home"
           rel="noopener noreferrer"
         >
-          See My Work
+          Enter
         </a>
       </header>
     </div>
