@@ -1,0 +1,60 @@
+:root {
+    --nav-hover: lightpink;
+    --nav-background: hotpink;
+    --navbar: black;
+    --active-hover: grey;
+    --nav-text: white;
+  }
+  
+  .navigation {
+    background-color: var(--navbar);
+  }
+  
+  .nav-tabs {
+    font-family: "Preahvihear", sans-serif;
+    font-size: 1.5rem;
+    border: none;
+  }
+  
+  .nav-tabs a {
+    color: var(--nav-text);
+  }
+  
+  .nav-tabs a:hover {
+    background-color: var(--nav-hover);
+  }
+  
+  .navbar-toggler {
+    background-color: white;
+  }
+  
+  .me-auto {
+    margin: auto;
+  }
+  
+  .active {
+    color: var(--nav-background) !important;
+    background-color: var(--active-hover) !important;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .navbar>.container {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .navigation {
+      display: block;
+    }
+  
+    .navbar-brand {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .navbar-nav {
+      margin: auto;
+      padding-bottom: .5rem;
+    }
+  }

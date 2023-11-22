@@ -1,0 +1,84 @@
+:root {
+    --services-background: pink;
+    --header-background: hotpink;
+    --hover: orchid;
+  }
+  
+  #web-dev-services {
+    min-height: 80vh;
+  }
+  
+  #web-dev-services h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Preahvihear", sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .web-dev-services-container {
+    min-width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .web-dev-service {
+    background: var(--services-background);
+    border-radius: 2rem;
+    border: 1px solid var(--header-background);
+    height: fit-content;
+    transition: var(--transition);
+  }
+  
+  .web-dev-service-header {
+    background: var(--header-background);
+    border-radius: 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .web-dev-service-header h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Preahvihear", sans-serif;
+  }
+  
+  .web-dev-service-name li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .web-dev-service-name-icon {
+    margin-top: .4rem;
+  }
+  
+  .web-dev-service-name p {
+    font-size: 1.2rem;
+    font-family: "Preahvihear", sans-serif;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .web-dev-services-container {
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .web-dev-services-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .web-dev-services-container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
