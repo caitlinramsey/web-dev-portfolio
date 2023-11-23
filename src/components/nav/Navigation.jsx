@@ -7,8 +7,8 @@ function Navigation() {
   return (
     <Navbar bg='dark' variant='dark' expand='lg' className="navigation p-2">
       <Container className='nav-tabs fw-bold'>
-        <LinkContainer>
-          <Navbar.Brand href='/' className='brand ps-3'>
+        <LinkContainer to='/'>
+          <Navbar.Brand className='brand ps-3'>
             <img src={navLogo} width='180px' alt="logo" /></Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -37,7 +37,6 @@ function Navigation() {
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-
       </Container>
     </Navbar>
   );

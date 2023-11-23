@@ -10,22 +10,28 @@ import {
   useLocation
 } from "react-router-dom";
 
-function App() {
+function AppWithNavigation() {
   const currentLocation = useLocation();
   const isLandingPage = currentLocation.pathname === '/';
 
   return (
     <>
-      <Router>
         {!isLandingPage && <Navigation />}
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/home" element={<Home />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-      </Router>
     </>
   );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppWithNavigation />
+    </Router>
+  )
 }
 
 export default App;
