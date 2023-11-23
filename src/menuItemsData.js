@@ -13,7 +13,17 @@ export const menuItemsData = [
         submenu: [
             {
                 title: 'Projects',
-                url: 'webdevprojects'
+                url: 'webdevprojects',
+                submenu: [
+                    {
+                        title: 'Front-End',
+                        url: 'frontend',
+                    },
+                    {
+                        title: 'Back-End',
+                        url: 'backend',
+                    }
+                ]
             },
             {
                 title: 'Services',

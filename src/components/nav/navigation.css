@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --nav-background: hotpink;
   --active-hover: grey;
   --nav-text: white;
@@ -11,22 +11,14 @@
 }
 
 .nav-tabs {
-  font-family: "Preahvihear", sans-serif;
-  font-size: 1.5rem;
   border: none;
 }
 
 .navbar a {
-  float: left;
   font-size: 16px;
   color: var(--nav-text);
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.me-auto {
-  margin: auto;
 }
 
 .active {
@@ -34,24 +26,7 @@
   background-color: var(--active-hover) !important;
 }
 
-@media screen and (max-width: 1280px) {
-  .navbar>.container {
-    justify-content: center;
-  }
+.menus {
+  display: flex;
+  align-items: center;
 }
-
-@media screen and (max-width: 1024px) {
-  .navigation {
-    display: block;
-  }
-
-  .navbar-brand {
-    display: flex;
-    justify-content: center;
-  }
-
-  .navbar-nav {
-    margin: auto;
-    padding-bottom: .5rem;
-  }
-} */
