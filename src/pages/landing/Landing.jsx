@@ -1,11 +1,9 @@
-import logo from "../../ddc.svg";
 import "./landing.css";
 
 function Landing() {
   return (
     <div className="landing">
       <header className="landing-header">
-        <img src={logo} className="landing-logo" alt="logo" />
         <div className="main-landing">
           <h1>
             Hello! I'm Caitlin.

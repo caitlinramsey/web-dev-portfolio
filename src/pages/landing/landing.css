@@ -1,15 +1,10 @@
 :root {
   --landing-header: white;
-  --roller-text: cyan;
+  --roller-text: hotpink;
 }
 
 .landing {
   text-align: center;
-}
-
-.landing-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .landing-header {
@@ -32,6 +27,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 10rem;
 }
 
 h1 {
@@ -39,6 +35,8 @@ h1 {
   text-transform: uppercase;
   color: var(--landing-header);
   font-size: 4rem;
+  background: rgba(244, 44, 224, 0.5);
+  font-family: 'Playpen Sans', cursive;
 }
 
 .roller {
