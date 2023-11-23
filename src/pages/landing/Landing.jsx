@@ -8,7 +8,7 @@ function Landing() {
         <img src={logo} className="landing-logo" alt="logo" />
         <div className="main-landing">
           <h1>
-            Hello! I'm Caitlin. A
+            Hello! I'm Caitlin.
             <div className="roller">
               <span id="rolltext">
                 Full-Stack Developer
@@ -21,9 +21,15 @@ function Landing() {
             </div>
           </h1>
         </div>
-        <a className="home-link" href="home" rel="noopener noreferrer">
-          Enter
-        </a>
+        <div className="enter-container">
+          <a className='button home-link pt-5' href="home" rel="noopener noreferrer">
+            <div className="button__line"></div>
+            <div className="button__line"></div>
+            <span className="button__text">ENTER</span>
+            <div className="button__drow1"></div>
+            <div className="button__drow2"></div>
+          </a>
+        </div>
       </header>
     </div>
   );
