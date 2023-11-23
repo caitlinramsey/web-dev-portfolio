@@ -1,0 +1,15 @@
+:root {
+    --menu-button: white;
+}
+
+.menu-items {
+    position: relative;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--menu-button);
+    font-weight: bold;
+}

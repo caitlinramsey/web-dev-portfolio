@@ -26,6 +26,10 @@
   background-color: var(--active-hover) !important;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .menus {
   display: flex;
   align-items: center;

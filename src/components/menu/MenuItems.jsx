@@ -1,5 +1,6 @@
 import Dropdown from '../dropdown/Dropdown';
 import { useState, useEffect, useRef } from "react";
+import './menuItems.css';
 
 const MenuItems = ({ items, depthLevel }) => {
     const [dropdown, setDropdown] = useState(false);
@@ -12,35 +13,35 @@ const MenuItems = ({ items, depthLevel }) => {
 
     useEffect(() => {
         const handler = (event) => {
-         if (dropdown && ref.current && !ref.current.contains(event.target)) {
-          setDropdown(false);
-         }
+            if (dropdown && ref.current && !ref.current.contains(event.target)) {
+                setDropdown(false);
+            }
         };
         document.addEventListener("mousedown", handler);
         document.addEventListener("touchstart", handler);
         return () => {
-         // Cleanup the event listener
-         document.removeEventListener("mousedown", handler);
-         document.removeEventListener("touchstart", handler);
+            // Cleanup the event listener
+            document.removeEventListener("mousedown", handler);
+            document.removeEventListener("touchstart", handler);
         };
-       }, [dropdown]);
+    }, [dropdown]);
 
-       const onMouseEnter = () => {
+    const onMouseEnter = () => {
         setDropdown(true);
-       };
-       
-       const onMouseLeave = () => {
+    };
+
+    const onMouseLeave = () => {
         setDropdown(false);
-       };
+    };
 
     return (
         <li className="menu-items" ref={ref}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
         >
             {items.submenu ? (
                 <>
-                    <button type="button" aria-haspopup="menu"
+                    <button type="button" className='menu-button' aria-haspopup="menu"
                         aria-expanded={dropdown ? "true" : "false"}
                         onClick={handleDropdownToggle}
                     >
