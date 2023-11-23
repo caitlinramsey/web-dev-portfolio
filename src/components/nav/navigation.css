@@ -1,13 +1,7 @@
 :root {
-    --nav-hover: lightpink;
     --nav-background: hotpink;
-    --navbar: black;
     --active-hover: grey;
     --nav-text: white;
-  }
-  
-  .navigation {
-    background-color: var(--navbar);
   }
   
   .nav-tabs {
@@ -18,14 +12,6 @@
   
   .nav-tabs a {
     color: var(--nav-text);
-  }
-  
-  .nav-tabs a:hover {
-    background-color: var(--nav-hover);
-  }
-  
-  .navbar-toggler {
-    background-color: white;
   }
   
   .me-auto {
