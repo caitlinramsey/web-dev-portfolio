@@ -14,20 +14,20 @@ function Navigation() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
-            <LinkContainer to="/">
+            <LinkContainer to="/home">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/webdevportfolio">
-              <Nav.Link>Web Development Portfolio</Nav.Link>
+            <LinkContainer to="/webdevprojects">
+              <Nav.Link>Web Development Projects</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/webdevservies">
               <Nav.Link>Web Development Services</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/graphicdesignportfolio">
-              <Nav.Link>Graphic Design Portfolio</Nav.Link>
+            <LinkContainer to="/graphicdesignprojects">
+              <Nav.Link>Graphic Design Projects</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/graphicdesignservices">
               <Nav.Link>Graphic Design Services</Nav.Link>

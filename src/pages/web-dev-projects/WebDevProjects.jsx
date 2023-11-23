@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import "./project.css";
+import "./webdevprojects.css";
 import project1 from "../../assets/zooquarium.jpg";
 import project2 from "../../assets/bugbytes.jpg";
 import project3 from "../../assets/borrowhood-mockup.jpg";
