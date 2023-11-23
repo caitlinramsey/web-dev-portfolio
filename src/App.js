@@ -1,17 +1,23 @@
 import Landing from "../src/pages/landing/Landing";
 import Home from "../src/pages/home/Home";
+import Navigation from '../src/components/nav/Navigation';
 import "./App.css";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
+  useLocation
 } from "react-router-dom";
 
 function App() {
+  const currentLocation = useLocation();
+  const isLandingPage = currentLocation.pathname === '/';
+
   return (
     <>
       <Router>
+        {!isLandingPage && <Navigation />}
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/home" element={<Home />} />
