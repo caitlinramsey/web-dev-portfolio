@@ -115,7 +115,7 @@ const Contact = () => {
               Want to see my photography and design? Click the logo.
             </h4>
             <a href="https://doubledowncreations.com/" className="my-logo">
-              <img src={navLogo} width="250px" alt="image of my logo" />
+              <img src={navLogo} width="250px" alt="logo" />
             </a>
           </div>
         </Container>
