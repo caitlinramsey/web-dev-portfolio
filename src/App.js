@@ -2,7 +2,8 @@ import Landing from "../src/pages/landing/Landing";
 import Home from "../src/pages/home/Home";
 import Navigation from '../src/components/nav/Navigation';
 import About from '../src/pages/about/About';
-import WebDevProjects from '../src/pages/web-dev-projects/WebDevProjects'
+import FrontEnd from '../src/pages/front-end/Front-End'
+import BackEnd from '../src/pages/back-end/Back-End'
 import WebDevServices from '../src/pages/web-dev-services/WebDevServices'
 import GraphicDesignProjects from '../src/pages/graphic-design-projects/GraphicDesignProjects'
 import GraphicDesignServices from '../src/pages/graphic-design-services/GraphicDesignServices'
@@ -27,7 +28,8 @@ function AppWithNavigation() {
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/webdevprojects" element={<WebDevProjects />} />
+          <Route exact path="/frontend" element={<FrontEnd />} />
+          <Route exact path="/backend" element={<BackEnd />} />
           <Route exact path="/webdevservices" element={<WebDevServices />} />
           <Route exact path="/graphicdesignprojects" element={<GraphicDesignProjects />} />
           <Route exact path="/graphicdesignservices" element={<GraphicDesignServices />} />

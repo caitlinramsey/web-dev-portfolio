@@ -11,7 +11,7 @@ export default function Home() {
             <h4>Hello I'm</h4>
             <h1>Caitlin Ramsey</h1>
             <h4 className="pt-3">
-              Full-Stack Developer/Graphic Designer/Photographer
+              Full-Stack Developer | Graphic Designer | Photographer
             </h4>
             <hr
               style={{
