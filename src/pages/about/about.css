@@ -1,173 +1,174 @@
 :root {
-    --about-text: black;
-    --about-bg: rgb(194, 194, 194);
-  }
-  
-  #about-me {
-    width: 100vw;
-    height: 80rem;
-    aspect-ratio: 1;
-  }
-  
-  #about-me h1 {
-    font-size: 4rem;
-    font-family: "Preahvihear", sans-serif;
-  }
-  
+  --about-text: black;
+  --about-bg: rgb(194, 194, 194);
+}
+
+#about-me {
+  width: 100vw;
+  height: 80rem;
+  aspect-ratio: 1;
+}
+
+#about-me h1 {
+  font-size: 4rem;
+  font-family: 'Playpen Sans', cursive;
+  text-transform: none;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10%;
+  margin-top: 10rem;
+}
+
+.about-me-image {
+  background-image: url("../../assets/me-and-boys.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 50rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin-left: 6rem;
+}
+
+.about-me-content {
+  width: 60%;
+  font-size: 1.5rem;
+  background-color: var(--about-bg);
+  padding: .5rem;
+  border-radius: 1rem;
+  opacity: .9;
+}
+
+.about-me-content p {
+  font-family: "Valera Round", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+
   .about-me-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 10%;
-    margin-top: 10rem;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 0;
   }
-  
+
+  .about-me {
+    width: 80%;
+  }
+
   .about-me-image {
-    background-image: url("../../assets/me-and-boys.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
     height: 50rem;
-    border-radius: 2rem;
-    overflow: hidden;
-    margin-left: 6rem;
+    margin-bottom: 2rem;
   }
-  
+
   .about-me-content {
-    width: 60%;
-    font-size: 1.5rem;
-    background-color: var(--about-bg);
-    padding: .5rem;
-    border-radius: 1rem;
-    opacity: .9;
+    text-align: center;
+    width: 100%;
   }
-  
+
   .about-me-content p {
-    font-family: "Valera Round", sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
   }
-  
-  @media screen and (max-width: 1024px) {
-  
-    .about-me-container {
-      grid-template-columns: 1fr;
-      gap: 0;
-      margin-top: 0;
-    }
-  
-    .about-me {
-      width: 80%;
-    }
-  
-    .about-me-image {
-      height: 50rem;
-      margin-bottom: 2rem;
-    }
-  
-    .about-me-content {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .about-me-content p {
-      padding-left: 3rem;
-      padding-right: 3rem;
-      text-align: center;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  #about-me {
+    margin-left: -1rem;
   }
-  
-  @media screen and (max-width: 768px) {
-    #about-me {
-      margin-left: -1rem;
-    }
-  
-    .about-me-image {
-      height: 40rem;
-    }
+
+  .about-me-image {
+    height: 40rem;
   }
-  
-  @media screen and (max-width: 600px) {
-    #about-me {
-      margin-left: -1rem;
-      padding-bottom: 40rem;
-    }
-  
-    .about-me-container {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-  
-    .about-me {
-      width: 80%;
-    }
-  
-    .about-me-image {
-      height: 40rem;
-    }
-  
-    .about-me-content {
-      text-align: center;
-      width: 100%;
-    }
-  
-    .about-me-content p {
-      padding-left: 3rem;
-      padding-right: 3rem;
-      text-align: center;
-    }
+}
+
+@media screen and (max-width: 600px) {
+  #about-me {
+    margin-left: -1rem;
+    padding-bottom: 40rem;
   }
-  
-  @media screen and (max-width: 425px) {
-    #about-me {
-      margin-left: -1rem;
-      padding-bottom: 95rem;
-    }
-  
-    #about-me h1 {
-      font-size: 3rem;
-    }
-  
-    .about-me-image {
-      height: 30rem;
-      margin-left: 4rem;
-    }
-  
-    .about-me-content {
-      width: 80vw;
-      margin: auto;
-      font-size: 1.3rem;
-    }
-  
-    .about-me-content p {
-      padding-left: 0;
-      padding-right: 0;
-    }
+
+  .about-me-container {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
-  
-  @media screen and (max-width: 375px) {
-    .about-me-image {
-      height: 25rem;
-    }
+
+  .about-me {
+    width: 80%;
   }
-  
-  @media screen and (max-width: 320px) {
-    #about-me {
-      padding-bottom: 115rem;
-    }
-  
-    .about-me-image {
-      height: 25rem;
-      margin-left: 3rem;
-    }
-  
-    .about-me-content p {
-      font-size: 1.2rem;
-      padding-left: 0;
-      padding-right: 0;
-    }
+
+  .about-me-image {
+    height: 40rem;
   }
-  
-  @media screen and (max-width: 280px) {
-    .about-me-content {
-      font-size: 1rem;
-    }
+
+  .about-me-content {
+    text-align: center;
+    width: 100%;
   }
+
+  .about-me-content p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #about-me {
+    margin-left: -1rem;
+    padding-bottom: 95rem;
+  }
+
+  #about-me h1 {
+    font-size: 3rem;
+  }
+
+  .about-me-image {
+    height: 30rem;
+    margin-left: 4rem;
+  }
+
+  .about-me-content {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.3rem;
+  }
+
+  .about-me-content p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-me-image {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #about-me {
+    padding-bottom: 115rem;
+  }
+
+  .about-me-image {
+    height: 25rem;
+    margin-left: 3rem;
+  }
+
+  .about-me-content p {
+    font-size: 1.2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .about-me-content {
+    font-size: 1rem;
+  }
+}
