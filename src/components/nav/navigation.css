@@ -2,35 +2,30 @@
   --nav-background: hotpink;
   --active-hover: grey;
   --nav-text: white;
+  --nav-a-text: black;
+}
+
+.nav-link {
+  color: var(--nav-text);
+  margin-right: 3rem;
 }
 
 .navbar {
-  overflow: hidden;
   background-color: #333;
   font-family: 'Playpen Sans', cursive;
 }
 
-.nav-tabs {
-  border: none;
-}
-
 .navbar a {
   font-size: 16px;
-  color: var(--nav-text);
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.dropdown-menu {
+  color: var(--nav-a-text);
 }
 
 .active {
   color: var(--nav-background) !important;
   background-color: var(--active-hover) !important;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.menus {
-  display: flex;
-  align-items: center;
 }
