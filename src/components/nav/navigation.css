@@ -1,8 +1,7 @@
 :root {
   --nav-background: hotpink;
-  --active-hover: grey;
   --nav-text: white;
-  --nav-a-text: black;
+  --nav-bg: #333;
 }
 
 .nav-link {
@@ -10,22 +9,33 @@
   margin-right: 3rem;
 }
 
+/* .dropdown-toggle {
+  color: var(--nav-background);
+} */
+
 .navbar {
-  background-color: #333;
+  background-color: var(--nav-bg);
   font-family: 'Playpen Sans', cursive;
 }
 
 .navbar a {
-  font-size: 16px;
+  font-size: 25px;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
 .dropdown-menu {
-  color: var(--nav-a-text);
+  background-color: var(--nav-bg);
+}
+
+.dropdown-item {
+  color: var(--nav-text);
+}
+
+.dropdown-item:hover {
+  color: var(--nav-background);
+  background-color: var(--nav-bg);
 }
 
 .active {
   color: var(--nav-background) !important;
-  background-color: var(--active-hover) !important;
 }
