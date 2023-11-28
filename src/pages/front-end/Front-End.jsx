@@ -6,6 +6,7 @@ import project3 from "../../assets/weatherpro.png";
 import project4 from "../../assets/workday-scheduler.png";
 import { Slide } from "react-awesome-reveal";
 import FrontEndSkills from "../skills/front-end-skills/FrontEndSkills";
+import './frontendprojects.css'
 
 const projectInfoFrontEnd = [
   {
@@ -49,8 +50,8 @@ const projectInfoFrontEnd = [
 function FrontEndProject() {
   return (
     <section id="fe-project">
-      <h1 className="fe-portfolio pt-5 text-center">Front-End Projects</h1>
-      <hr
+      <h1 className="fe-portfolio pt-3 pb-3 text-center">Front-End Projects</h1>
+      {/* <hr
         style={{
           background: "black",
           color: "black",
@@ -58,7 +59,7 @@ function FrontEndProject() {
           height: "3px",
           opacity: "1",
         }}
-      />
+      /> */}
       <FrontEndSkills />
       <Slide direction="left" triggerOnce>
         <Container className="fe-project-container pb-4 pt-5 text-white">

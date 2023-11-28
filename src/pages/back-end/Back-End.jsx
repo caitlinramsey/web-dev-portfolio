@@ -4,6 +4,7 @@ import project1 from "../../assets/bugbytes.jpg";
 import project2 from "../../assets/borrowhood-mockup.jpg";
 import { Slide } from "react-awesome-reveal";
 import BackEndSkills from "../skills/back-end-skills/BackEndSkills";
+import './backendprojects.css'
 
 const projectInfoBackEnd = [
   {
@@ -29,8 +30,8 @@ const projectInfoBackEnd = [
 function BackEndProject() {
   return (
     <section id="be-project">
-      <h1 className="be-portfolio pt-5 text-center">Back-End Projects</h1>
-      <hr
+      <h1 className="be-portfolio pt-3 text-center">Back-End Projects</h1>
+      {/* <hr
         style={{
           background: "black",
           color: "black",
@@ -38,7 +39,7 @@ function BackEndProject() {
           height: "3px",
           opacity: "1",
         }}
-      />
+      /> */}
       <BackEndSkills />
       <Slide direction="left" triggerOnce>
         <Container className="be-project-container pb-4 pt-5 text-white">

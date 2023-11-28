@@ -5,16 +5,17 @@
     --project-button-hover: grey;
   }
   
-  #project h1 {
+  #be-project h1 {
     font-size: 4rem;
-    font-family: "Preahvihear", sans-serif;
+    font-family: 'Allerta Stencil', sans-serif;
   }
   
-  .portfolio {
+  .be-portfolio {
     color: var(--hover-text);
+    text-transform: none;
   }
   
-  .project-container {
+  .be-project-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     min-width: 90vw;
@@ -22,7 +23,7 @@
     justify-content: center;
   }
   
-  .project-item {
+  .be-project-item {
     background: var(--project-background);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -30,32 +31,32 @@
     transition: var(--transition);
   }
   
-  .project-item:hover {
+  .be-project-item:hover {
     border-color: var(--project-hover);
     color: var(--hover-text);
     background: transparent;
   }
   
-  .project-item-image {
+  .be-project-item-image {
     border-radius: 1rem;
     overflow: hidden;
     height: 30rem;
   }
   
-  .project-item-image img {
+  .be-project-item-image img {
     height: 30rem;
   }
   
-  .project-item h3 {
+  .be-project-item h3 {
     font-family: "Preahvihear", sans-serif;
   }
   
-  .project-item h4 {
+  .be-project-item h4 {
     font-size: 1rem;
     font-family: "Preahvihear", sans-serif;
   }
   
-  .project-item-links {
+  .be-project-item-links {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -84,30 +85,29 @@
   }
   
   @media screen and (max-width: 1440px) {
-    .project-container {
+    .be-project-container {
       display: block;
       width: 50vw;
       margin: auto;
     }
   
-    .project-item {
+    .be-project-item {
       margin-bottom: 1rem;
     }
   }
   
   @media screen and (max-width: 1024px) {
-    .project-container {
+    .be-project-container {
       width: 80vw;
     }
   }
   
   @media screen and (max-width: 600px) {
-    .project-container {
+    .be-project-container {
       padding: 0;
     }
   
-    .project-item {
+    .be-project-item {
       border-radius: 1.8rem;
     }
   }
-  
