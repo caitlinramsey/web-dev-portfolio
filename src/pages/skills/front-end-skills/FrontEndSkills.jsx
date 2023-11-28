@@ -14,38 +14,46 @@ import {
 
 export default function FrontEndSkills() {
   return (
-    <section id="skills" className="text-center mx-auto">
+    <section id="front-end-skills" className="text-center mx-auto">
       <Slide direction="right" triggerOnce>
-        <h2 className="main-section-title mb-5 pt-5">Skills</h2>
-        <div className="skills-container d-flex flex-wrap mx-auto justify-content-center">
-          <div className="section-title text-decoration-underline">
-            <h3>Front-End</h3>
+        <div className="front-end-skills-container mx-auto justify-content-center">
+          <div className="front-end-section-title text-decoration-underline">
+            <h3>Front-End Skills</h3>
           </div>
           <div className="front-end">
-            <div className="skills-icons d-grid">
+            <div className="front-end-skills-icons">
               <Slide cascade damping={0.08} triggerOnce>
                 <ReactIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
                 />
-                <JsIcon iconClassName="skill-icon" divClassName="skill-div" />
-                <HtmlIcon iconClassName="skill-icon" divClassName="skill-div" />
+                <JsIcon
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
+                />
+                <HtmlIcon
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
+                />
                 <HandlebarsIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
                 />
-                <CssIcon iconClassName="skill-icon" divClassName="skill-div" />
+                <CssIcon
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
+                />
                 <TailwindIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
                 />
                 <BootstrapIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
                 />
                 <BabelIcon
-                  iconClassName="skill-icon"
-                  divClassName="skill-div"
+                  iconClassName="front-end-skill-icon"
+                  divClassName="front-end-skill-div"
                 />
               </Slide>
             </div>

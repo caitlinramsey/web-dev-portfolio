@@ -1,71 +1,50 @@
 :root {
-    --skills: black;
+    --back-end-skills: black;
 }
 
-#skills {
+#back-end-skills {
     font-family: "Preahvihear", sans-serif;
 }
 
-.main-section-title {
-    font-size: 70px;
-    color: var(--skills);
-}
-
-.section-title {
+.back-end-section-title {
     font-size: 1rem;
     text-underline-offset: .5rem;
 }
 
-#skills h3 {
-    font-size: 2rem;
-}
-
-.skill-icon {
+.back-end-skill-icon {
     width: 50px;
     height: 50px;
 }
 
-.skill-div {
-    margin-bottom: 15px;
-    width: 10vw;
+.back-end-skill-div {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
     align-items: center;
     text-align: center;
 }
 
 
 @media screen and (max-width: 1440px) {
-    .skill-div {
+    .back-end-skill-div {
         width: 20vw;
     }
 }
 
 @media screen and (max-width: 1280px) {
-    .skills-container {
+    .back-end-skills-container {
         display: flex;
         flex-direction: column;
     }
 
-    .section-title {
+    .back-end-section-title {
         padding-bottom: 2rem;
-    }
-
-    .front-end, .back-end, .tools {
-        columns: 2;
-        margin: auto;
-        padding-bottom: 3rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .skill-div {
+    .back-end-skill-div {
         width: 30vw;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .main-section-title {
-        font-size: 4rem;
     }
 }

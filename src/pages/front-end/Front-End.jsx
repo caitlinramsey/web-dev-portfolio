@@ -49,7 +49,7 @@ const projectInfoFrontEnd = [
 function FrontEndProject() {
   return (
     <section id="fe-project">
-      <h1 className="fe-portfolio pt-5 text-center">Front End Projects</h1>
+      <h1 className="fe-portfolio pt-5 text-center">Front-End Projects</h1>
       <hr
         style={{
           background: "black",

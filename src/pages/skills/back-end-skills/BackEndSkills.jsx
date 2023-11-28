@@ -14,38 +14,49 @@ import {
 
 export default function BackEndSkills() {
   return (
-    <section id="skills" className="text-center mx-auto">
+    <section id="back-end-skills" className="text-center mx-auto">
       <Slide direction="right" triggerOnce>
-        <div className="section-title text-decoration-underline">
-          <h3>Back-End</h3>
-        </div>
-        <div className="back-end">
-          <div className="skills-icons d-grid">
-            <Slide cascade damping={0.08} triggerOnce>
-              <NodeIcon iconClassName="skill-icon" divClassName="skill-div" />
-              <ExpressIcon
-                iconClassName="skill-icon"
-                divClassName="skill-div"
-              />
-              <MongodbIcon
-                iconClassName="skill-icon"
-                divClassName="skill-div"
-              />
-              <MongooseIcon
-                iconClassName="skill-icon"
-                divClassName="skill-div"
-              />
-              <GraphqlIcon
-                iconClassName="skill-icon"
-                divClassName="skill-div"
-              />
-              <ApolloIcon iconClassName="skill-icon" divClassName="skill-div" />
-              <MysqlIcon iconClassName="skill-icon" divClassName="skill-div" />
-              <SequelizeIcon
-                iconClassName="skill-icon"
-                divClassName="skill-div"
-              />
-            </Slide>
+        <div className="back-end-skills-container mx-auto justify-content-center">
+          <div className="back-end-section-title text-decoration-underline">
+            <h3>Back-End Skills</h3>
+          </div>
+          <div className="back-end">
+            <div className="back-end-skills-icons">
+              <Slide cascade damping={0.08} triggerOnce>
+                <NodeIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <ExpressIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <MongodbIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <MongooseIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <GraphqlIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <ApolloIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <MysqlIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+                <SequelizeIcon
+                  iconClassName="back-end-skill-icon"
+                  divClassName="back-end-skill-div"
+                />
+              </Slide>
+            </div>
           </div>
         </div>
       </Slide>
