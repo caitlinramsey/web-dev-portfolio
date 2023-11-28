@@ -1,6 +1,5 @@
 import "./home.css";
 import Container from "react-bootstrap/Container";
-import Skills from "../skills/Skills";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
               }}
             />
           </div>
-          <Skills />
         </Container>
       </header>
     </>
