@@ -5,9 +5,29 @@
   --be-project-button-hover: grey;
 }
 
+.carousel-item {
+  min-width: 1000px;
+  min-height: 900px;
+}
+
+#be-project {
+  background-image: url(../../assets/fe-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #be-project h1 {
   font-size: 4rem;
   font-family: 'Allerta Stencil', sans-serif;
+  /* background-color: transparent; */
+}
+
+.be-project-image img {
+  height: auto;
+  max-height: 30rem;
 }
 
 .be-portfolio {
@@ -15,18 +35,26 @@
   text-transform: none;
 }
 
-.be-project-item {
-  background: var(--be-project-background);
-  padding: 1.3rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
+.carousel-control-prev {
+  left: 5%;
+  font-size: 30px;
+  transition: transform 0.3s ease;
 }
 
-.be-project-item:hover {
-  border-color: var(--be-project-hover);
-  color: var(--be-hover-text);
-  background: transparent;
+.carousel-control-next {
+  right: 5%;
+  font-size: 30px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  transform: scale(1.5);
+}
+
+.be-project-title {
+  text-decoration: underline;
+  text-underline-offset: .3rem;
 }
 
 .be-project-item-image {
@@ -35,7 +63,7 @@
   height: 30rem;
 }
 
-.be-project-item-image img {
+.be-project-image img {
   height: 30rem;
 }
 
@@ -43,12 +71,16 @@
   font-family: "Preahvihear", sans-serif;
 }
 
+.be-project-description {
+  margin: 25rem;
+}
+
 .be-project-item h4 {
   font-size: 1rem;
   font-family: "Preahvihear", sans-serif;
 }
 
-.be-project-item-links {
+.be-project-links {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -69,37 +101,25 @@
 .be-github-btn:hover {
   background-color: var(--be-project-button-hover);
   color: var(--be-hover-text);
+  transform: scale(1.1);
 }
 
 .be-live-btn:hover {
   background-color: var(--be-project-button-hover);
   color: var(--be-hover-text);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1440px) {
-  .be-project-container {
-    display: block;
-    width: 50vw;
-    margin: auto;
-  }
-
-  .be-project-item {
-    margin-bottom: 1rem;
-  }
+  .be-project-description {
+    margin: 15rem;
+}
 }
 
 @media screen and (max-width: 1024px) {
-  .be-project-container {
-    width: 80vw;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
-  .be-project-container {
-    padding: 0;
-  }
-
-  .be-project-item {
-    border-radius: 1.8rem;
-  }
+  
 }

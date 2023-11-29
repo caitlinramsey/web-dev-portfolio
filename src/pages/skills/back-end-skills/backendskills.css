@@ -1,14 +1,17 @@
 :root {
     --back-end-skills: black;
+    --back-end-title: white;
 }
 
 #back-end-skills {
     font-family: "Preahvihear", sans-serif;
+    margin-top: 1rem;
 }
 
 .back-end-section-title {
     font-size: 1rem;
     text-underline-offset: .5rem;
+    color: var(--back-end-title);
 }
 
 .back-end-skill-icon {
@@ -23,12 +26,13 @@
     padding-top: 1rem;
     align-items: center;
     text-align: center;
+    color: var(--back-end-title);
 }
 
 
 @media screen and (max-width: 1440px) {
-    .back-end-skill-div {
-        width: 20vw;
+    .back-end-skills-icons {
+        gap: 1rem;
     }
 }
 

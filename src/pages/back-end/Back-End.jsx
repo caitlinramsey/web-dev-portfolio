@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import project1 from "../../assets/bugbytes.jpg";
 import project2 from "../../assets/borrowhood-mockup.jpg";
 import { Slide } from "react-awesome-reveal";
+import Carousel from "react-bootstrap/Carousel";
 import BackEndSkills from "../skills/back-end-skills/BackEndSkills";
 import './backendprojects.css'
 
@@ -31,6 +31,7 @@ function BackEndProject() {
   return (
     <section id="be-project">
       <h1 className="be-portfolio pt-3 text-center">Back-End Projects</h1>
+      <BackEndSkills />
       {/* <hr
         style={{
           background: "black",
@@ -40,35 +41,40 @@ function BackEndProject() {
           opacity: "1",
         }}
       /> */}
-      <BackEndSkills />
       <Slide direction="left" triggerOnce>
-        <Container className="be-project-container pb-4 pt-5 text-white">
-          {projectInfoBackEnd.map(
-            ({ id, image, title, description, github, demo }) => {
-              return (
-                <article key={id} className="be-project-item">
-                  <h3 className="be-project-title text-center fs-1 mb-2">
-                    {title}
-                  </h3>
-                  <div className="be-project-item-image">
-                    <img src={image} alt={title} />
-                  </div>
-                  <h4 className="be-project-description fs-5 mt-3 mb-3">
-                    {description}
-                  </h4>
-                  <div className="be-project-item-links">
-                    <a href={github} className="btn be-github-btn" target="-blank">
-                      GitHub
-                    </a>
-                    <a href={demo} className="btn be-live-btn" target="-blank">
-                      Live Site
-                    </a>
-                  </div>
-                </article>
-              );
-            }
-          )}
-        </Container>
+        <div className="carousel">
+          <Carousel interval={10000}>
+            {projectInfoBackEnd.map(
+              ({ id, image, title, description, github, demo }) => {
+                return (
+                  <Carousel.Item key={id}>
+                    <h3 className="be-project-title text-center text-white fs-1 mb-2">
+                      {title}
+                    </h3>
+                    <div className="be-project-image text-center d-block w-100">
+                      <img src={image} alt={title} />
+                    </div>
+                    <h4 className="be-project-description text-center text-white fs-5 mt-3 mb-3">
+                      {description}
+                    </h4>
+                    <div className="be-project-links d-flex justify-content-center pb-5">
+                      <a 
+                        href={github} 
+                        className="btn be-github-btn" 
+                        target="-blank"
+                      >
+                        GitHub
+                      </a>
+                      <a href={demo} className="btn be-live-btn" target="-blank">
+                        Live Site
+                      </a>
+                    </div>
+                  </Carousel.Item>
+                );
+              }
+            )}
+          </Carousel>
+        </div>
       </Slide>
     </section>
   );
