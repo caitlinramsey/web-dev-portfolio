@@ -3,111 +3,137 @@
     --project-background: black;
     --hover-text: white;
     --project-button-hover: grey;
-  }
-  
-  #fe-project h1 {
+}
+
+#fe-project {
+    background-color: slategrey;
+    height: 100vh;
+}
+
+#fe-project h1 {
     font-size: 4rem;
     font-family: 'Allerta Stencil', sans-serif;
-  }
-  
-  .fe-portfolio {
+}
+
+.fe-portfolio {
     color: var(--hover-text);
     text-transform: none;
-  }
-  
-  .fe-project-container {
+}
+
+.fe-project-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     min-width: 90vw;
     gap: 2rem;
     justify-content: center;
-  }
-  
-  .fe-project-item {
+}
+
+.carousel-control-prev {
+    left: 15%;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-next {
+    right: 15%;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    transform: scale(1.5);
+}
+
+.fe-project-item {
     background: var(--project-background);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-  }
-  
-  .fe-project-item:hover {
+}
+
+.fe-project-item:hover {
     border-color: var(--project-hover);
     color: var(--project-background);
     background: transparent;
-  }
-  
-  .fe-project-item-image {
+}
+
+.fe-project-item-image {
     border-radius: 1rem;
     overflow: hidden;
     height: 30rem;
-  }
-  
-  .fe-project-item-image img {
+}
+
+.fe-project-item-image img {
     height: 30rem;
-  }
-  
-  .fe-project-item h3 {
+}
+
+.fe-project-item h3 {
     font-family: "Preahvihear", sans-serif;
-  }
-  
-  .fe-project-item h4 {
+}
+
+.fe-project-description {
+    margin: 45rem;
+}
+
+.fe-project-item h4 {
     font-size: 1rem;
     font-family: "Preahvihear", sans-serif;
-  }
-  
-  .fe-project-item-links {
+}
+
+.fe-project-item-links {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-  }
-  
-  .github-btn,
-  .live-btn {
+}
+
+.github-btn,
+.live-btn {
     background-color: var(--project-hover);
     padding: 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
     color: var(--project-background);
     font-weight: bold;
-  }
-  
-  .github-btn:hover {
+}
+
+.github-btn:hover {
     background-color: var(--project-button-hover);
     color: var(--hover-text);
-  }
-  
-  .live-btn:hover {
+}
+
+.live-btn:hover {
     background-color: var(--project-button-hover);
     color: var(--hover-text);
-  }
-  
-  @media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1440px) {
     .fe-project-container {
-      display: block;
-      width: 50vw;
-      margin: auto;
+        display: block;
+        width: 50vw;
+        margin: auto;
     }
-  
+
     .fe-project-item {
-      margin-bottom: 1rem;
+        margin-bottom: 1rem;
     }
-  }
-  
-  @media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 1024px) {
     .fe-project-container {
-      width: 80vw;
+        width: 80vw;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .fe-project-container {
-      padding: 0;
+        padding: 0;
     }
-  
+
     .fe-project-item {
-      border-radius: 1.8rem;
+        border-radius: 1.8rem;
     }
-  }
+}
