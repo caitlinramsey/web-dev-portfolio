@@ -6,7 +6,12 @@
 }
 
 #fe-project {
-    background-color: slategrey;
+    background-image: url(../../assets/fe-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
     height: 100vh;
 }
 

@@ -53,7 +53,7 @@ function FrontEndProject() {
     <section id="fe-project">
       <h1 className="fe-portfolio pt-3 pb-3 text-center">Front-End Projects</h1>
       <FrontEndSkills />
-      <hr
+      {/* <hr
         style={{
           background: "black",
           color: "black",
@@ -61,7 +61,7 @@ function FrontEndProject() {
           height: "3px",
           opacity: "1",
         }}
-      />
+      /> */}
       <Slide direction="left" triggerOnce>
         <div className="carousel">
           <Carousel interval={15000}>
