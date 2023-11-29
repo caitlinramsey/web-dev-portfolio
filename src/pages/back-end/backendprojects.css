@@ -1,113 +1,105 @@
 :root {
-    --project-hover: hotpink;
-    --project-background: black;
-    --hover-text: white;
-    --project-button-hover: grey;
-  }
-  
-  #be-project h1 {
-    font-size: 4rem;
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-  
-  .be-portfolio {
-    color: var(--hover-text);
-    text-transform: none;
-  }
-  
+  --be-project-hover: hotpink;
+  --be-project-background: black;
+  --be-hover-text: white;
+  --be-project-button-hover: grey;
+}
+
+#be-project h1 {
+  font-size: 4rem;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.be-portfolio {
+  color: var(--be-hover-text);
+  text-transform: none;
+}
+
+.be-project-item {
+  background: var(--be-project-background);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.be-project-item:hover {
+  border-color: var(--be-project-hover);
+  color: var(--be-hover-text);
+  background: transparent;
+}
+
+.be-project-item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 30rem;
+}
+
+.be-project-item-image img {
+  height: 30rem;
+}
+
+.be-project-item h3 {
+  font-family: "Preahvihear", sans-serif;
+}
+
+.be-project-item h4 {
+  font-size: 1rem;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.be-project-item-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.be-github-btn,
+.be-live-btn {
+  background-color: var(--be-project-hover);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--be-project-background);
+  font-weight: bold;
+}
+
+.be-github-btn:hover {
+  background-color: var(--be-project-button-hover);
+  color: var(--be-hover-text);
+}
+
+.be-live-btn:hover {
+  background-color: var(--be-project-button-hover);
+  color: var(--be-hover-text);
+}
+
+@media screen and (max-width: 1440px) {
   .be-project-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    min-width: 90vw;
-    gap: 2rem;
-    justify-content: center;
+    display: block;
+    width: 50vw;
+    margin: auto;
   }
-  
+
   .be-project-item {
-    background: var(--project-background);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-  }
-  
-  .be-project-item:hover {
-    border-color: var(--project-hover);
-    color: var(--hover-text);
-    background: transparent;
-  }
-  
-  .be-project-item-image {
-    border-radius: 1rem;
-    overflow: hidden;
-    height: 30rem;
-  }
-  
-  .be-project-item-image img {
-    height: 30rem;
-  }
-  
-  .be-project-item h3 {
-    font-family: "Preahvihear", sans-serif;
-  }
-  
-  .be-project-item h4 {
-    font-size: 1rem;
-    font-family: "Preahvihear", sans-serif;
-  }
-  
-  .be-project-item-links {
-    display: flex;
-    gap: 1rem;
     margin-bottom: 1rem;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
   }
-  
-  .github-btn,
-  .live-btn {
-    background-color: var(--project-hover);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    color: var(--project-background);
-    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .be-project-container {
+    width: 80vw;
   }
-  
-  .github-btn:hover {
-    background-color: var(--project-button-hover);
-    color: var(--hover-text);
+}
+
+@media screen and (max-width: 600px) {
+  .be-project-container {
+    padding: 0;
   }
-  
-  .live-btn:hover {
-    background-color: var(--project-button-hover);
-    color: var(--hover-text);
+
+  .be-project-item {
+    border-radius: 1.8rem;
   }
-  
-  @media screen and (max-width: 1440px) {
-    .be-project-container {
-      display: block;
-      width: 50vw;
-      margin: auto;
-    }
-  
-    .be-project-item {
-      margin-bottom: 1rem;
-    }
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .be-project-container {
-      width: 80vw;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .be-project-container {
-      padding: 0;
-    }
-  
-    .be-project-item {
-      border-radius: 1.8rem;
-    }
-  }
+}

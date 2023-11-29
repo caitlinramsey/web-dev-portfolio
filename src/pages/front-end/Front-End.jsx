@@ -1,5 +1,4 @@
 import React from "react";
-// import Container from "react-bootstrap/Container";
 import project1 from "../../assets/zooquarium.jpg";
 import project2 from "../../assets/note-taker.png";
 import project3 from "../../assets/weatherpro.png";
@@ -65,41 +64,35 @@ function FrontEndProject() {
       <Slide direction="left" triggerOnce>
         <div className="carousel">
           <Carousel interval={15000}>
-            {/* <Container className="fe-project-container pb-4 pt-5 text-white"> */}
             {projectInfoFrontEnd.map(
               ({ id, image, title, description, github, demo }) => {
                 return (
-                  // <article key={id} className="fe-project-item">
                   <Carousel.Item key={id}>
-                    <h3 className="fe-project-title text-center text-black fs-1 mb-3">
+                    <h3 className="fe-project-title text-center text-white fs-1 mb-3">
                       {title}
                     </h3>
-                    {/* <Carousel.Caption> */}
-                    <div className="fe-project-item-image text-center d-block w-100">
+                    <div className="fe-project-image text-center d-block w-100">
                       <img src={image} alt={title} />
                     </div>
-                    <h4 className="fe-project-description text-center text-black fs-5 mt-3 mb-3">
+                    <h4 className="fe-project-description text-center text-white fs-5 mt-3 mb-3">
                       {description}
                     </h4>
-                    <div className="fe-project-item-links d-flex justify-content-center pb-5">
+                    <div className="fe-project-links d-flex justify-content-center pb-5">
                       <a
                         href={github}
-                        className="btn github-btn"
+                        className="btn fe-github-btn"
                         target="-blank"
                       >
                         GitHub
                       </a>
-                      <a href={demo} className="btn live-btn" target="-blank">
+                      <a href={demo} className="btn fe-live-btn" target="-blank">
                         Live Site
                       </a>
                     </div>
-                    {/* </Carousel.Caption> */}
                   </Carousel.Item>
-                  // </article>
                 );
               }
             )}
-            {/* </Container> */}
           </Carousel>
         </div>
       </Slide>

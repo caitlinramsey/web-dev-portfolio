@@ -1,14 +1,17 @@
 :root {
     --front-end-skills: rgb(0, 0, 0);
+    --front-end-title: white;
 }
 
 #front-end-skills {
     font-family: "Preahvihear", sans-serif;
+    margin-top: 1rem;
 }
 
 .front-end-section-title {
     font-size: 1rem;
     text-underline-offset: .5rem;
+    color: var(--front-end-title);
 }
 
 .front-end-skill-icon {
@@ -23,6 +26,7 @@
     padding-top: 1rem;
     align-items: center;
     text-align: center;
+    color: var(--front-end-title);
 }
 
 

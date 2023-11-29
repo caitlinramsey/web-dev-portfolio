@@ -57,10 +57,10 @@ function BackEndProject() {
                     {description}
                   </h4>
                   <div className="be-project-item-links">
-                    <a href={github} className="btn github-btn" target="-blank">
+                    <a href={github} className="btn be-github-btn" target="-blank">
                       GitHub
                     </a>
-                    <a href={demo} className="btn live-btn" target="-blank">
+                    <a href={demo} className="btn be-live-btn" target="-blank">
                       Live Site
                     </a>
                   </div>

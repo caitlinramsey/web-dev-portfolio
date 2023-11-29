@@ -1,8 +1,8 @@
 :root {
-    --project-hover: hotpink;
-    --project-background: black;
-    --hover-text: white;
-    --project-button-hover: grey;
+    --fe-project-hover: hotpink;
+    --fe-project-background: black;
+    --fe-hover-text: white;
+    --fe-project-button-hover: rgb(0, 0, 0);
 }
 
 #fe-project {
@@ -18,19 +18,12 @@
 #fe-project h1 {
     font-size: 4rem;
     font-family: 'Allerta Stencil', sans-serif;
+    /* background-color: transparent; */
 }
 
 .fe-portfolio {
-    color: var(--hover-text);
+    color: var(--fe-hover-text);
     text-transform: none;
-}
-
-.fe-project-container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    min-width: 90vw;
-    gap: 2rem;
-    justify-content: center;
 }
 
 .carousel-control-prev {
@@ -50,18 +43,9 @@
     transform: scale(1.5);
 }
 
-.fe-project-item {
-    background: var(--project-background);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-
-.fe-project-item:hover {
-    border-color: var(--project-hover);
-    color: var(--project-background);
-    background: transparent;
+.fe-project-title {
+    text-decoration: underline;
+    text-underline-offset: .3rem;
 }
 
 .fe-project-item-image {
@@ -70,7 +54,7 @@
     height: 30rem;
 }
 
-.fe-project-item-image img {
+.fe-project-image img {
     height: 30rem;
 }
 
@@ -87,7 +71,7 @@
     font-family: "Preahvihear", sans-serif;
 }
 
-.fe-project-item-links {
+.fe-project-links {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -95,50 +79,36 @@
     font-weight: 500;
 }
 
-.github-btn,
-.live-btn {
-    background-color: var(--project-hover);
+.fe-github-btn,
+.fe-live-btn {
+    background-color: var(--fe-project-hover);
     padding: 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
-    color: var(--project-background);
+    color: var(--fe-project-background);
     font-weight: bold;
 }
 
-.github-btn:hover {
-    background-color: var(--project-button-hover);
-    color: var(--hover-text);
+.fe-github-btn:hover {
+    background-color: var(--fe-project-button-hover);
+    color: var(--fe-hover-text);
+    transform: scale(1.1);
 }
 
-.live-btn:hover {
-    background-color: var(--project-button-hover);
-    color: var(--hover-text);
+.fe-live-btn:hover {
+    background-color: var(--fe-project-button-hover);
+    color: var(--fe-hover-text);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1440px) {
-    .fe-project-container {
-        display: block;
-        width: 50vw;
-        margin: auto;
-    }
 
-    .fe-project-item {
-        margin-bottom: 1rem;
-    }
 }
 
 @media screen and (max-width: 1024px) {
-    .fe-project-container {
-        width: 80vw;
-    }
+    
 }
 
 @media screen and (max-width: 600px) {
-    .fe-project-container {
-        padding: 0;
-    }
-
-    .fe-project-item {
-        border-radius: 1.8rem;
-    }
+    
 }
