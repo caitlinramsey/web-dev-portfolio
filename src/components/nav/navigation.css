@@ -23,6 +23,10 @@
   padding: 14px 16px;
 }
 
+.logo-col {
+  margin: auto;
+}
+
 .dropdown-menu {
   background-color: var(--nav-bg);
 }

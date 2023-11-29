@@ -31,8 +31,8 @@
 
 
 @media screen and (max-width: 1440px) {
-    .front-end-skill-div {
-        width: 20vw;
+    .front-end-skills-icons {
+        gap: 1rem;
     }
 }
 

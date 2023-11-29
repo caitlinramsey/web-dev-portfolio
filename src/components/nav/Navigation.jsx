@@ -27,7 +27,7 @@ function Navigation() {
     <Navbar expand="lg" className="nav-outer navbar">
       <Container className="nav-inner responsive wrapper">
         <Row className="align-items-center">
-          <Col xs="12" md='auto' lg="6" className="text-center text-lg-left mb-2 mb-lg-0">
+          <Col xs="12" md='auto' lg="6" className="logo-col text-center text-lg-left mb-2 mb-lg-0">
             <div className={`logo ${isScrolled ? "hidden" : ""}`}>
               <Link to="/home">
                 <img src={Logo} width={200} height={100} alt="Logo" />
@@ -37,7 +37,7 @@ function Navigation() {
           <Col>
             <Navbar.Toggle />
             <Navbar.Collapse>
-              <Nav className="navigation ml-auto">
+              <Nav className="navigation m-auto">
                 <Nav.Link
                   as={Link}
                   to="/home"

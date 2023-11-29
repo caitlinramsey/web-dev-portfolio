@@ -12,7 +12,6 @@
     background-size: 100% 100%;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 #fe-project h1 {
@@ -102,7 +101,9 @@
 }
 
 @media screen and (max-width: 1440px) {
-
+    .fe-project-description {
+        margin: 15rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
