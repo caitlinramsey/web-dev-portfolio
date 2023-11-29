@@ -5,6 +5,12 @@
     --fe-project-button-hover: rgb(0, 0, 0);
 }
 
+
+.carousel-item {
+    min-width: 1000px;
+    min-height: 900px;
+}
+
 #fe-project {
     background-image: url(../../assets/fe-background.png);
     background-repeat: no-repeat;
@@ -20,20 +26,25 @@
     /* background-color: transparent; */
 }
 
+.fe-project-image img {
+    height: auto;
+    max-height: 30rem;
+}
+
 .fe-portfolio {
     color: var(--fe-hover-text);
     text-transform: none;
 }
 
 .carousel-control-prev {
-    left: 15%;
-    font-size: 20px;
+    left: 5%;
+    font-size: 30px;
     transition: transform 0.3s ease;
 }
 
 .carousel-control-next {
-    right: 15%;
-    font-size: 20px;
+    right: 5%;
+    font-size: 30px;
     transition: transform 0.3s ease;
 }
 
@@ -62,7 +73,7 @@
 }
 
 .fe-project-description {
-    margin: 45rem;
+    margin: 25rem;
 }
 
 .fe-project-item h4 {

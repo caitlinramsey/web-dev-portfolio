@@ -63,7 +63,7 @@ function FrontEndProject() {
       /> */}
       <Slide direction="left" triggerOnce>
         <div className="carousel">
-          <Carousel interval={15000}>
+          <Carousel interval={10000}>
             {projectInfoFrontEnd.map(
               ({ id, image, title, description, github, demo }) => {
                 return (
