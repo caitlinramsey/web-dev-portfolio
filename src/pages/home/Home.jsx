@@ -9,7 +9,10 @@ export default function Home() {
           <div className="header-container text-center">
             <h4>Hello I'm</h4>
             <h1>Caitlin Ramsey</h1>
-            <h4 className="pt-3">
+            <div id='code-gif' align='center'>
+              <img src="https://media.giphy.com/media/igRW3jH2LcCVzMqi5F/giphy.gif" width="300" />
+            </div>
+            <h4 className="my-desc">
               Full-Stack Developer | Graphic Designer | Photographer
             </h4>
             <hr

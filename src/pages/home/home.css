@@ -11,10 +11,17 @@
   color: var(--name);
   background-color: transparent;
   text-transform: none;
+  font-size: 60px;
 }
 
 .header-container h4 {
-  opacity: 0.9
+  font-family: 'Playpen Sans', cursive;
+  font-size: 2rem;
+}
+
+.my-desc {
+  font-family: 'Playpen Sans', cursive;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
