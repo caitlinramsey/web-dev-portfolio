@@ -30,7 +30,7 @@ const projectInfoBackEnd = [
 function BackEndProject() {
   return (
     <section id="be-project">
-      <h1 className="be-portfolio pt-3 text-center">Back-End Projects</h1>
+      <h1 className="be-portfolio pt-3 pb-3 text-center">Back-End Projects</h1>
       <BackEndSkills />
       {/* <hr
         style={{
