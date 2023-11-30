@@ -5,6 +5,10 @@
   --be-project-button-hover: grey;
 }
 
+.carousel {
+  text-align: center;
+}
+
 .carousel-item {
   min-width: 1000px;
   min-height: 900px;
@@ -73,6 +77,10 @@
 
 .be-project-description {
   margin: 25rem;
+  display: inline-block;
+  background-color: var(--fe-description);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .be-project-item h4 {
@@ -99,13 +107,13 @@
 }
 
 .be-github-btn:hover {
-  background-color: var(--be-project-button-hover);
+  background-color: var(--be-project-background);
   color: var(--be-hover-text);
   transform: scale(1.1);
 }
 
 .be-live-btn:hover {
-  background-color: var(--be-project-button-hover);
+  background-color: var(--be-project-background);
   color: var(--be-hover-text);
   transform: scale(1.1);
 }
@@ -113,13 +121,9 @@
 @media screen and (max-width: 1440px) {
   .be-project-description {
     margin: 15rem;
-}
-}
-
-@media screen and (max-width: 1024px) {
-  
+  }
 }
 
-@media screen and (max-width: 600px) {
-  
-}
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 600px) {}

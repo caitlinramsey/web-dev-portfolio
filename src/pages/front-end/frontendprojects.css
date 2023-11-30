@@ -2,7 +2,11 @@
     --fe-project-hover: hotpink;
     --fe-project-background: black;
     --fe-hover-text: white;
-    --fe-project-button-hover: rgb(0, 0, 0);
+    --fe-description: #5E5E5E;
+}
+
+.carousel {
+    text-align: center;
 }
 
 .carousel-item {
@@ -73,6 +77,10 @@
 
 .fe-project-description {
     margin: 25rem;
+    display: inline-block;
+    background-color: var(--fe-description);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .fe-project-item h4 {
@@ -99,13 +107,13 @@
 }
 
 .fe-github-btn:hover {
-    background-color: var(--fe-project-button-hover);
+    background-color: var(--fe-project-background);
     color: var(--fe-hover-text);
     transform: scale(1.1);
 }
 
 .fe-live-btn:hover {
-    background-color: var(--fe-project-button-hover);
+    background-color: var(--fe-project-background);
     color: var(--fe-hover-text);
     transform: scale(1.1);
 }
