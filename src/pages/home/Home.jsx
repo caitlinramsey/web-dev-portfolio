@@ -10,7 +10,7 @@ export default function Home() {
             <h4>Hello I'm</h4>
             <h1>Caitlin Ramsey</h1>
             <div id='code-gif' align='center'>
-              <img src="https://media.giphy.com/media/igRW3jH2LcCVzMqi5F/giphy.gif" width="300" />
+              <img src="https://media.giphy.com/media/igRW3jH2LcCVzMqi5F/giphy.gif" width="300" alt="gif that says I'm a code blooded programmer"/>
             </div>
             <h4 className="my-desc">
               Full-Stack Developer | Graphic Designer | Photographer

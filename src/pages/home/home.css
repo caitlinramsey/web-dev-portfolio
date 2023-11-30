@@ -1,9 +1,12 @@
 :root {
-  --name: black;
+  --name: white;
 }
 
 #header {
   padding-top: 3rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
+  min-height: 100vh;
 }
 
 .header-container h1 {
@@ -17,6 +20,7 @@
 .header-container h4 {
   font-family: 'Playpen Sans', cursive;
   font-size: 2rem;
+  color: var(--name);
 }
 
 .my-desc {
