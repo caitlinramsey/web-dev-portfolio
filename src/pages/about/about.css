@@ -1,6 +1,7 @@
 :root {
   --about-text: black;
   --about-bg: rgb(194, 194, 194);
+  --about-header: hotpink;
 }
 
 #about-me {
@@ -13,6 +14,7 @@
   font-size: 4rem;
   font-family: 'Playpen Sans', cursive;
   text-transform: none;
+  background-color: var(--about-header);
 }
 
 .about-me-container {

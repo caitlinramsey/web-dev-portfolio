@@ -5,9 +5,8 @@ import Container from "react-bootstrap/Container";
 
 function WebDevServices() {
   return (
-    <section id="web-dev-services" className="services pt-5">
+    <section id="web-dev-services" className="services">
       <h1>Web Development Services</h1>
-
       <Container className="web-dev-services-container">
         <article className="web-dev-service">
           <ul className="web-dev-service-name p-4 pt-5">
@@ -34,6 +33,32 @@ function WebDevServices() {
             <li>
               <FaCheckDouble className="web-dev-service-name-icon" />
               <p>UX/UI centered design.</p>
+            </li>
+          </ul>
+        </article>
+        <article className="web-dev-service">
+          <ul className="web-dev-service-name p-4 pt-5">
+            <li>
+              <FaCheckDouble className="web-dev-service-name-icon" />
+              <p>
+                Custom web application development.
+              </p>
+            </li>
+            <li>
+              <FaCheckDouble className="web-dev-service-name-icon" />
+              <p>
+                Database design and management.
+              </p>
+            </li>
+            <li>
+              <FaCheckDouble className="web-dev-service-name-icon" />
+              <p>
+                Front-end and back-end optimization.
+              </p>
+            </li>
+            <li>
+              <FaCheckDouble className="web-dev-service-name-icon" />
+              <p>API development and integration.</p>
             </li>
           </ul>
         </article>

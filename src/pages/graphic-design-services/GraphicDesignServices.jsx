@@ -7,7 +7,7 @@ function GraphicDesignServices() {
   return (
     <section
       id="graphic-design-services"
-      className="graphic-design-services pt-5"
+      className="graphic-design-services"
     >
       <h1>Graphic Design Services</h1>
       <Container className="graphic-design-services-container">

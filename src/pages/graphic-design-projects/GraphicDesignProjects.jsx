@@ -3,14 +3,14 @@ import React from "react";
 import "./graphicdesignprojects.css";
 import Container from "react-bootstrap/Container";
 
-function GraphicDesignServices() {
+function GraphicDesignProjects() {
   return (
     <section
-      id="graphic-design-services"
-      className="graphic-design-services pt-5"
+      id="graphic-design-projects"
+      className="graphic-design-projects"
     >
-      <h1>Graphic Design Services</h1>
-      <Container className="graphic-design-services-container">
+      <h1>Graphic Design Projects</h1>
+      <Container className="graphic-design-projects-container">
         <article className="graphic-design-service">
           <div className="graphic-design-service-header p-4">
             <h2>Graphic Design/Social Media Management</h2>
@@ -23,7 +23,7 @@ function GraphicDesignServices() {
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
-              <p>Photography and editing services available.</p>
+              <p>Photography and editing projects available.</p>
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
@@ -34,7 +34,7 @@ function GraphicDesignServices() {
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
-              <p>Advertising design services available.</p>
+              <p>Advertising design projects available.</p>
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
@@ -50,4 +50,4 @@ function GraphicDesignServices() {
   );
 }
 
-export default GraphicDesignServices;
+export default GraphicDesignProjects;

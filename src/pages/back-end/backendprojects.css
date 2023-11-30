@@ -26,7 +26,7 @@
 #be-project h1 {
   font-size: 4rem;
   font-family: 'Allerta Stencil', sans-serif;
-  /* background-color: transparent; */
+  background-color: var(--be-project-hover);
 }
 
 .be-project-image img {

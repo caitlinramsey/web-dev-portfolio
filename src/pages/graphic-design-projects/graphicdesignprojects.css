@@ -1,0 +1,11 @@
+:root {
+    --graphic-services-header: hotpink;
+}
+
+.graphic-design-projects h1 {
+    background-color: var(--graphic-services-header);
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
