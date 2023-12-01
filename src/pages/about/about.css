@@ -5,9 +5,9 @@
 }
 
 #about-me {
-  width: 100vw;
-  height: 80rem;
-  aspect-ratio: 1;
+  /* width: 100vw; */
+  min-height: 100vh;
+  background-image: url(../../assets/about-background-1440.png);
 }
 
 #about-me h1 {
