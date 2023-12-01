@@ -74,18 +74,26 @@ ul li:nth-child(1) a::before {
 
 ul li:nth-child(2) a::before {
   content: "\f09a";
-  color: #25D366;
-  border-bottom: 4px solid #25D366;
+  background-image: linear-gradient(180deg, #17A9FD 0%, #0165E1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid #17A9FD;
 }
 
 ul li:nth-child(3) a::before {
   content: "\e07b";
-  color: #1DA1F2;
-  border-bottom: 4px solid #1DA1F2;
+  background-image: linear-gradient(90deg, #ff0050 0%, #00f2ea 50%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid #00f2ea;
 }
 
 ul li:hover a::before {
   height: 100%;
+}
+
+.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 1024px) {
