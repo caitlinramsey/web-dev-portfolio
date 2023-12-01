@@ -4,8 +4,7 @@
 
 #header {
   padding-top: 3rem;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
+  background-image: url(../../assets/home-background-1440.png);
   min-height: 100vh;
 }
 
@@ -93,7 +92,7 @@ ul li:hover a::before {
 }
 
 .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
-  line-height: 1.5;
+   line-height: 1.5;
 }
 
 @media screen and (max-width: 1024px) {
