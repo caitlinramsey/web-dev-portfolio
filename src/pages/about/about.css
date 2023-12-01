@@ -7,14 +7,14 @@
 #about-me {
   width: 100vw;
   min-height: 100vh;
-  background-image: url(../../assets/about-background-1440.png);
+  background-image: url(../../assets/backgrounds/about-background-1440.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #about-me h1 {
   font-size: 4rem;
-  font-family: 'Playpen Sans', cursive;
+  font-family: 'Allerta Stencil', sans-serif;
   text-transform: none;
   background-color: var(--about-header);
 }

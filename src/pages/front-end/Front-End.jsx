@@ -1,8 +1,8 @@
 import React from "react";
-import project1 from "../../assets/zooquarium.jpg";
-import project2 from "../../assets/note-taker.png";
-import project3 from "../../assets/weatherpro.png";
-import project4 from "../../assets/workday-scheduler.png";
+import project1 from "../../assets/web-dev/zooquarium.jpg";
+import project2 from "../../assets/web-dev/note-taker.png";
+import project3 from "../../assets/web-dev/weatherpro.png";
+import project4 from "../../assets/web-dev/workday-scheduler.png";
 import { Slide } from "react-awesome-reveal";
 import Carousel from "react-bootstrap/Carousel";
 import FrontEndSkills from "../skills/front-end-skills/FrontEndSkills";

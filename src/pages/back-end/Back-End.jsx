@@ -1,6 +1,6 @@
 import React from "react";
-import project1 from "../../assets/bugbytes.jpg";
-import project2 from "../../assets/borrowhood-mockup.jpg";
+import project1 from "../../assets/web-dev/bugbytes.jpg";
+import project2 from "../../assets/web-dev/borrowhood-mockup.jpg";
 import { Slide } from "react-awesome-reveal";
 import Carousel from "react-bootstrap/Carousel";
 import BackEndSkills from "../skills/back-end-skills/BackEndSkills";
