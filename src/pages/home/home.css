@@ -27,30 +27,30 @@
   font-size: 2rem;
 }
 
-ul {
+.social-media ul {
   position: relative;
   display: flex;
   justify-content: center;
   padding-top: 2rem;
 }
 
-ul li {
+.social-media ul li {
   position: relative;
   list-style: none;
   margin: 0 20px;
   cursor: pointer;
 }
 
-ul li a {
+.social-media ul li a {
   text-decoration: none;
 }
 
-ul li a .fab {
+.social-media ul li a .fab {
   font-size: 6em;
   color: #222;
 }
 
-ul li a::before {
+.social-media ul li a::before {
   font-family: "FontAwesome";
   position: absolute;
   top: 0;
@@ -61,7 +61,7 @@ ul li a::before {
   transition: 0.5s ease-in-out;
 }
 
-ul li:nth-child(1) a::before {
+.social-media ul li:nth-child(1) a::before {
   content: "\f16d";
   background-image: linear-gradient(45deg,
       #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%,
@@ -71,7 +71,7 @@ ul li:nth-child(1) a::before {
   border-bottom: 4px solid #dc2743;
 }
 
-ul li:nth-child(2) a::before {
+.social-media ul li:nth-child(2) a::before {
   content: "\f09a";
   background-image: linear-gradient(180deg, #17A9FD 0%, #0165E1 100%);
   -webkit-background-clip: text;
@@ -79,7 +79,7 @@ ul li:nth-child(2) a::before {
   border-bottom: 4px solid #17A9FD;
 }
 
-ul li:nth-child(3) a::before {
+.social-media ul li:nth-child(3) a::before {
   content: "\e07b";
   background-image: linear-gradient(90deg, #ff0050 0%, #00f2ea 50%, #000000 100%);
   -webkit-background-clip: text;
@@ -87,7 +87,7 @@ ul li:nth-child(3) a::before {
   border-bottom: 4px solid #00f2ea;
 }
 
-ul li:hover a::before {
+.social-media ul li:hover a::before {
   height: 100%;
 }
 

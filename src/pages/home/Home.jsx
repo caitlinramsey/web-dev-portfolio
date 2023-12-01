@@ -24,11 +24,13 @@ export default function Home() {
                 opacity: "1",
               }}
             />
-            <ul>
-              <li><a href="https://www.instagram.com/doubledowncreations/"><i className="fab fa-instagram instagram"></i></a></li>
-              <li><a href="https://www.facebook.com/doubledowncreationsus"><i className="fab fa-facebook-f facebook"></i></a></li>
-              <li><a href="https://www.tiktok.com/@doubledowncreations?lang=en"><i className="fab fa-tiktok tiktok"></i></a></li>
-            </ul>
+            <div className="social-media">
+              <ul>
+                <li><a href="https://www.instagram.com/doubledowncreations/"><i className="fab fa-instagram instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/doubledowncreationsus"><i className="fab fa-facebook-f facebook"></i></a></li>
+                <li><a href="https://www.tiktok.com/@doubledowncreations?lang=en"><i className="fab fa-tiktok tiktok"></i></a></li>
+              </ul>
+            </div>
           </div>
         </Container>
       </header>
