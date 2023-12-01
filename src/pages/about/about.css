@@ -5,9 +5,11 @@
 }
 
 #about-me {
-  /* width: 100vw; */
+  width: 100vw;
   min-height: 100vh;
   background-image: url(../../assets/about-background-1440.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about-me h1 {
@@ -20,8 +22,8 @@
 .about-me-container {
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 10%;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .about-me-image {
@@ -33,11 +35,9 @@
   height: 50rem;
   border-radius: 2rem;
   overflow: hidden;
-  margin-left: 6rem;
 }
 
 .about-me-content {
-  width: 60%;
   font-size: 1.5rem;
   background-color: var(--about-bg);
   padding: .5rem;

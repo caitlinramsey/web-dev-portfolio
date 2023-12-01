@@ -6,23 +6,27 @@ import { Slide } from 'react-awesome-reveal';
 function About() {
     return (
         <Slide direction='right' triggerOnce>
-        <section id='about-me' className='about-me'>
-            <h1 className='text-center'>About Me</h1>
+            <section id='about-me' className='about-me'>
+                <h1 className='text-center'>About Me</h1>
 
-            <Container className='about-me-container'>
-                <div className='about-me'>
-                    <div className='about-me-image'></div>
-                </div>
+                <Container className='about-me-container'>
+                    <div className='about-me'>
+                        <div className='about-me-image'></div>
+                    </div>
 
-                <div className='about-me-content text-center mb-5'>
-                    <p>
-                        I graduated from Cedar Crest College in May 2019 with a Bachelor of Science in Environmental Conservation and a Bachelor of Arts in New Media. In August of 2023, I graduated from a 6-month course through the University of North Carolina at Chapel Hill with a certificate in Full-Stack Development. I am one class away from completing a graduate certificate in Fisheries Management through Oregon State University.
-                        <br/><br/>
-                        I am an organized, hard-working, and dependable individual. I am very passionate about being creative and problem-solving. I enjoy the challenge of learning new programming languages and techniques.
-                    </p>
-                </div>
-            </Container>
-        </section>
+                    <div className='about-me-content text-center mb-5'>
+                        <p>
+                            I'm a dedicated professional with a multifaceted educational journey. In 2019, I earned two degrees at Cedar Crest College, a Bachelor of Science in Environmental Conservation and a Bachelor of Arts in New Media.
+                            <br></br>
+                            Taking my passion for problem-solving and creativity to the next level, I delved into the world of technology. Fast forward to August 2023, I successfully completed a rigorous 6-month Full-Stack Development course at the University of North Carolina, Chapel Hill.
+                            <br></br>
+                            I'm on the verge of earning a graduate certificate in Fisheries Management from Oregon State University, with just one class standing between me and this accomplishment. This unique blend of environmental sciences, technology, and management encapsulates my commitment to holistic problem-solving.
+                            <br></br>
+                            As a professional, I pride myself on being organized, hard-working, and dependable. These qualities have been instrumental not only in my academic pursuits but also in my approach to real-world challenges. I thrive on the thrill of mastering new programming languages and techniques, constantly seeking ways to innovate and elevate my skills.
+                        </p>
+                    </div>
+                </Container>
+            </section>
         </Slide>
     );
 }
