@@ -92,7 +92,7 @@
 }
 
 .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
-   line-height: 1.5;
+   line-height: 1.5 !important;
 }
 
 @media screen and (max-width: 1024px) {
