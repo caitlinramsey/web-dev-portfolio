@@ -1,5 +1,10 @@
 :root {
-    --graphic-services-header: hotpink;
+    --graphic-projects-header: hotpink;
+    --graphic-design-background: rgb(16, 18, 18);
+}
+
+#graphic-design-projects {
+    background-color: var(--graphic-design-background);
 }
 
 .graphic-design-container {
@@ -13,8 +18,8 @@
     gap: 10px;
 }
 
-.graphic-design-projects h1 {
-    background-color: var(--graphic-services-header);
+#graphic-design-projects h1 {
+    background-color: var(--graphic-projects-header);
     text-transform: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
