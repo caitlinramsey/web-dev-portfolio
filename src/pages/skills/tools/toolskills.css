@@ -1,0 +1,53 @@
+:root {
+    --tool-skills: rgb(0, 0, 0);
+    --tool-title: white;
+}
+
+#tool-skills {
+    font-family: "Preahvihear", sans-serif;
+    margin-top: 1rem;
+}
+
+.tool-section-title {
+    font-size: 1rem;
+    text-underline-offset: .5rem;
+    color: var(--tool-title);
+}
+
+.tool-skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    color: var(--tool-title);
+}
+
+.tool-skill-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .tool-skills-icons {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .tool-skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tool-section-title {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tool-skill-div {
+        width: 30vw;
+    }
+}
