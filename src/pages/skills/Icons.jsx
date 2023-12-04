@@ -3,15 +3,16 @@ import insomniaIcon from '../../assets/icons/insomnia.png';
 import netlifyIcon from '../../assets/icons/netlify.png';
 import apolloIcon from '../../assets/icons/apollo.png';
 import mongooseIcon from '../../assets/icons/mongoose.png';
-import photoshopIcon from '../../assets/icons/photoshop-plain.svg'
-import afterEffectsIcon from '../../assets/icons/aftereffects-original.svg'
-import canvaIcon from '../../assets/icons/canva-original.svg'
-import facebookIcon from '../../assets/icons/facebook-original.svg'
-import illustratorIcon from '../../assets/icons/illustrator-plain.svg'
-import linkedinIcon from '../../assets/icons/linkedin-original.svg'
-import mayaIcon from '../../assets/icons/maya-original.svg'
-import premiereProIcon from '../../assets/icons/premierepro-original.svg'
-import wordpressIcon from '../../assets/icons/wordpress-original.svg'
+import photoshopIcon from '../../assets/icons/photoshop-plain.svg';
+import afterEffectsIcon from '../../assets/icons/aftereffects-original.svg';
+import canvaIcon from '../../assets/icons/canva-original.svg';
+import facebookIcon from '../../assets/icons/facebook-original.svg';
+import illustratorIcon from '../../assets/icons/illustrator-plain.svg';
+import linkedinIcon from '../../assets/icons/linkedin-original.svg';
+import mayaIcon from '../../assets/icons/maya-original.svg';
+import premiereProIcon from '../../assets/icons/premierepro-original.svg';
+import wordpressIcon from '../../assets/icons/wordpress-plain.svg';
+import slackIcon from '../../assets/icons/slack-original.svg';
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -469,6 +470,20 @@ export function WordPressIcon({ divClassName, iconClassName, showText }) {
       iconTitle="WordPress"
       altText="WordPress Icon"
       iconName="WordPress"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function SlackIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={slackIcon}
+      iconTitle="Slack"
+      altText="Slack Icon"
+      iconName="Slack"
       iconClassName={iconClassName}
       showText={showText}
     />

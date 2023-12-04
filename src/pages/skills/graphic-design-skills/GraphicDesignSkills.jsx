@@ -11,6 +11,7 @@ import {
     FacebookIcon,
     LinkedInIcon,
     WordPressIcon,
+    SlackIcon
   } from "../Icons";
   
   export default function GraphicDesignSkills() {
@@ -57,6 +58,10 @@ import {
                   divClassName="graphic-design-skill-div" 
                   />
                   <WordPressIcon 
+                  iconClassName="graphic-design-skill-icon" 
+                  divClassName="graphic-design-skill-div" 
+                  />
+                  <SlackIcon 
                   iconClassName="graphic-design-skill-icon" 
                   divClassName="graphic-design-skill-div" 
                   />

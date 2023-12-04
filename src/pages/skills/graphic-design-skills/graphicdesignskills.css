@@ -21,6 +21,7 @@
     align-items: center;
     text-align: center;
     color: var(--graphic-design-title);
+    padding-top: 1rem;
 }
 
 .graphic-design-skill-icon {
@@ -28,26 +29,21 @@
     height: 50px;
 }
 
-
 @media screen and (max-width: 1440px) {
     .graphic-design-skills-icons {
         gap: 1rem;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .graphic-design-skills-container {
+@media screen and (max-width: 768px) {
+    .graphic-design-skills-section {
+        columns: 2;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .graphic-design-skills-icons {
         display: flex;
         flex-direction: column;
-    }
-
-    .graphic-design-section-title {
-        padding-bottom: 2rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .graphic-design-skill-div {
-        width: 30vw;
     }
 }
