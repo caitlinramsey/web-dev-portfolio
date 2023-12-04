@@ -2,14 +2,15 @@ import { FaCheckDouble } from "react-icons/fa6";
 import React from "react";
 import "./graphicdesignservices.css";
 import Container from "react-bootstrap/Container";
+import GraphicDesignSkills from "../skills/graphic-design-skills/GraphicDesignSkills";
 
 function GraphicDesignServices() {
   return (
     <section
       id="graphic-design-services"
-      className="graphic-design-services"
-    >
+      className="graphic-design-services">
       <h1>Graphic Design Services</h1>
+      <GraphicDesignSkills />
       <Container className="graphic-design-services-container">
         <article className="graphic-design-service">
           <div className="graphic-design-service-header p-4">

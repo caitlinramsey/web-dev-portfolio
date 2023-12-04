@@ -3,6 +3,15 @@ import insomniaIcon from '../../assets/icons/insomnia.png';
 import netlifyIcon from '../../assets/icons/netlify.png';
 import apolloIcon from '../../assets/icons/apollo.png';
 import mongooseIcon from '../../assets/icons/mongoose.png';
+import photoshopIcon from '../../assets/icons/photoshop-plain.svg'
+import afterEffectsIcon from '../../assets/icons/aftereffects-original.svg'
+import canvaIcon from '../../assets/icons/canva-original.svg'
+import facebookIcon from '../../assets/icons/facebook-original.svg'
+import illustratorIcon from '../../assets/icons/illustrator-plain.svg'
+import linkedinIcon from '../../assets/icons/linkedin-original.svg'
+import mayaIcon from '../../assets/icons/maya-original.svg'
+import premiereProIcon from '../../assets/icons/premierepro-original.svg'
+import wordpressIcon from '../../assets/icons/wordpress-original.svg'
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -334,6 +343,132 @@ export function GithubIcon({ divClassName, iconClassName, showText }) {
       iconTitle="GitHub"
       altText="GitHub Icon"
       iconName="GitHub"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function PhotoshopIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={photoshopIcon}
+      iconTitle="Photoshop"
+      altText="Photoshop Icon"
+      iconName="Photoshop"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function AfterEffectsIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={afterEffectsIcon}
+      iconTitle="After Effects"
+      altText="After Effects Icon"
+      iconName="After Effects"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function CanvaIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={canvaIcon}
+      iconTitle="Canva"
+      altText="Canva Icon"
+      iconName="Canva"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function FacebookIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={facebookIcon}
+      iconTitle="Facebook"
+      altText="Facebook Icon"
+      iconName="Facebook"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function IllustratorIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={illustratorIcon}
+      iconTitle="Illustrator"
+      altText="Illustrator Icon"
+      iconName="Illustrator"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function LinkedInIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={linkedinIcon}
+      iconTitle="LinkedIn"
+      altText="LinkedIn Icon"
+      iconName="LinkedIn"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function MayaIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={mayaIcon}
+      iconTitle="Maya"
+      altText="Maya Icon"
+      iconName="Maya"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function PremiereProIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={premiereProIcon}
+      iconTitle="PremierePro"
+      altText="PremierePro Icon"
+      iconName="PremierePro"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function WordPressIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={wordpressIcon}
+      iconTitle="WordPress"
+      altText="WordPress Icon"
+      iconName="WordPress"
       iconClassName={iconClassName}
       showText={showText}
     />

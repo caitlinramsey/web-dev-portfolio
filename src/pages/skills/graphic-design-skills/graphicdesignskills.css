@@ -1,0 +1,53 @@
+:root {
+    --graphic-design-skills: rgb(0, 0, 0);
+    --graphic-design-title: white;
+}
+
+#graphic-design-skills {
+    font-family: "Preahvihear", sans-serif;
+    margin-top: 1rem;
+}
+
+.graphic-design-section-title {
+    font-size: 1rem;
+    text-underline-offset: .5rem;
+    color: var(--graphic-design-title);
+}
+
+.graphic-design-skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    color: var(--graphic-design-title);
+}
+
+.graphic-design-skill-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .graphic-design-skills-icons {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .graphic-design-skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graphic-design-section-title {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .graphic-design-skill-div {
+        width: 30vw;
+    }
+}

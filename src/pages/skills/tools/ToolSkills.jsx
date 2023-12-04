@@ -53,7 +53,7 @@ export default function ToolSkills() {
                 />
                 <JestIcon 
                 iconClassName="tool-skill-icon" 
-                divClassName="skill-div" 
+                divClassName="tool-skill-div" 
                 />
               </Slide>
             </div>

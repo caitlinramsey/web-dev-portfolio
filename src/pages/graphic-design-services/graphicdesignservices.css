@@ -5,7 +5,8 @@
   }
   
   #graphic-design-services {
-    min-height: 80vh;
+    min-height: 100vh;
+    background-color: black;
   }
   
   #graphic-design-services h1 {
@@ -13,7 +14,10 @@
     font-size: 4rem;
     font-family: 'Allerta Stencil', sans-serif;
     margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: var(--header-background);
+    text-transform: none;
   }
   
   .graphic-design-services-container {
