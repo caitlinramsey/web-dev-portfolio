@@ -10,7 +10,7 @@
 
 .graphic-design-section-title {
     font-size: 1rem;
-    text-underline-offset: .5rem;
+    text-underline-offset: .2rem;
     color: var(--graphic-design-title);
 }
 
@@ -52,5 +52,11 @@
     .graphic-design-section-title h3 {
         font-size: 1rem;
         padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .graphic-design-section-title h3 {
+        font-size: .9rem;
     }
 }
