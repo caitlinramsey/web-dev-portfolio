@@ -1,78 +1,104 @@
 :root {
-    --services-background: pink;
-    --header-background: hotpink;
-    --hover: orchid;
-  }
-  
-  #graphic-design-services {
-    min-height: 100vh;
-    background-color: black;
-  }
-  
-  #graphic-design-services h1 {
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Allerta Stencil', sans-serif;
-    margin-bottom: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: var(--header-background);
-    text-transform: none;
-  }
-  
+  --services-background: pink;
+  --header-background: hotpink;
+  --hover: orchid;
+}
+
+#graphic-design-services {
+  min-height: 100vh;
+  background-color: black;
+}
+
+#graphic-design-services h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--header-background);
+  text-transform: none;
+}
+
+.graphic-design-services-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin: auto;
+}
+
+.graphic-design-service {
+  background: var(--services-background);
+  border-radius: 2rem;
+  border: 1px solid var(--header-background);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.graphic-design-service-header {
+  background: var(--header-background);
+  border-radius: 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.graphic-design-service-header h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.graphic-design-service-name li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.graphic-design-service-name-icon {
+  margin-top: .4rem;
+}
+
+.graphic-design-service-name p {
+  font-size: 1.2rem;
+  font-family: "Preahvihear", sans-serif;
+}
+
+@media screen and (max-width: 1280px) {
   .graphic-design-services-container {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .graphic-design-services-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #graphic-design-services h1 {
+    font-size: 3rem;
+  }
+
+  .graphic-design-services-container {
+    padding-left: 2rem;
     margin: auto;
   }
-  
-  .graphic-design-service {
-    background: var(--services-background);
-    border-radius: 2rem;
-    border: 1px solid var(--header-background);
-    height: fit-content;
-    transition: var(--transition);
-  }
-  
-  .graphic-design-service-header {
-    background: var(--header-background);
-    border-radius: 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
-  }
-  
+
   .graphic-design-service-header h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #graphic-design-services h1 {
     font-size: 2rem;
-    text-align: center;
-    font-family: "Preahvihear", sans-serif;
   }
-  
-  .graphic-design-service-name li {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 325px) {
+  .graphic-design-service-header h2 {
+    font-size: 1.4rem;
   }
-  
-  .graphic-design-service-name-icon {
-    margin-top: .4rem;
-  }
-  
-  .graphic-design-service-name p {
-    font-size: 1.2rem;
-    font-family: "Preahvihear", sans-serif;
-  }
-  
-  @media screen and (max-width: 1280px) {
-    .graphic-design-services-container {
-      padding-bottom: 2rem;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .graphic-design-services-container {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-  }
-  
+}

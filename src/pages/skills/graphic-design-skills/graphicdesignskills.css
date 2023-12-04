@@ -47,3 +47,10 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .graphic-design-section-title h3 {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+}
