@@ -20,7 +20,7 @@ export default function FrontEndSkills() {
           <div className="front-end-section-title text-decoration-underline">
             <h3>Front-End Skills</h3>
           </div>
-          <div className="front-end">
+          <div className="front-end-skills-section">
             <div className="front-end-skills-icons">
               <Slide cascade damping={0.08} triggerOnce>
                 <ReactIcon

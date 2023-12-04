@@ -36,19 +36,28 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
-    .back-end-skills-container {
+@media screen and (max-width: 768px) {
+    .back-end-skills-section {
+        columns: 2;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .back-end-skills-icons {
         display: flex;
         flex-direction: column;
     }
+}
 
-    .back-end-section-title {
-        padding-bottom: 2rem;
+@media screen and (max-width: 425px) {
+    .back-end-section-title h3 {
+        font-size: 1rem;
+        padding-left: 1rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .back-end-skill-div {
-        width: 30vw;
+@media screen and (max-width: 375px) {
+    .back-end-section-title h3 {
+        font-size: .9rem;
     }
 }

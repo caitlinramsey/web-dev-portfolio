@@ -20,7 +20,7 @@ export default function BackEndSkills() {
           <div className="back-end-section-title text-decoration-underline">
             <h3>Back-End Skills</h3>
           </div>
-          <div className="back-end">
+          <div className="back-end-skills-section">
             <div className="back-end-skills-icons">
               <Slide cascade damping={0.08} triggerOnce>
                 <NodeIcon
