@@ -4,7 +4,7 @@ import project2 from "../../assets/web-dev/note-taker.png";
 import project3 from "../../assets/web-dev/weatherpro.png";
 import project4 from "../../assets/web-dev/workday-scheduler.png";
 import { Slide } from "react-awesome-reveal";
-import Carousel from "react-bootstrap/Carousel";
+import { Container } from "react-bootstrap";
 import FrontEndSkills from "../skills/front-end-skills/FrontEndSkills";
 import "./frontendprojects.css";
 
@@ -52,50 +52,39 @@ function FrontEndProject() {
     <section id="fe-project">
       <h1 className="fe-portfolio pt-3 pb-3 text-center">Front-End Projects</h1>
       <FrontEndSkills />
-      {/* <hr
-        style={{
-          background: "black",
-          color: "black",
-          borderColor: "black",
-          height: "3px",
-          opacity: "1",
-        }}
-      /> */}
-      <Slide direction="left" triggerOnce>
-        <div className="fe-carousel">
-          <Carousel interval={10000}>
-            {projectInfoFrontEnd.map(
-              ({ id, image, title, description, github, demo }) => {
-                return (
-                  <Carousel.Item key={id}>
-                    <h3 className="fe-project-title text-center text-white fs-1 mb-3">
-                      {title}
-                    </h3>
-                    <div className="fe-project-image text-center d-block w-100">
-                      <img src={image} alt={title} />
-                    </div>
-                    <h4 className="fe-project-description text-white fs-5 mt-3 mb-3">
-                      {description}
-                    </h4>
-                    <div className="fe-project-links d-flex justify-content-center pb-5">
-                      <a
-                        href={github}
-                        className="btn fe-github-btn"
-                        target="-blank"
-                      >
-                        GitHub
-                      </a>
-                      <a href={demo} className="btn fe-live-btn" target="-blank">
-                        Live Site
-                      </a>
-                    </div>
-                  </Carousel.Item>
-                );
-              }
-            )}
-          </Carousel>
-        </div>
-      </Slide>
+      <Container>
+        <Slide direction="left" triggerOnce>
+          {projectInfoFrontEnd.map(
+            ({ id, image, title, description, github, demo }) => {
+              return (
+                <div key={id}>
+                  <h3 className="fe-project-title text-center text-white fs-1 mb-3">
+                    {title}
+                  </h3>
+                  <div className="fe-project-image text-center d-block w-100">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h4 className="fe-project-description text-white fs-5 mt-3 mb-3">
+                    {description}
+                  </h4>
+                  <div className="fe-project-links d-flex justify-content-center pb-5">
+                    <a
+                      href={github}
+                      className="btn fe-github-btn"
+                      target="-blank"
+                    >
+                      GitHub
+                    </a>
+                    <a href={demo} className="btn fe-live-btn" target="-blank">
+                      Live Site
+                    </a>
+                  </div>
+                </div>
+              );
+            }
+          )}
+        </Slide>
+      </Container>
     </section>
   );
 }
