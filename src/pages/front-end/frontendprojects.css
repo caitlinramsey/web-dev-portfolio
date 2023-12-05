@@ -5,7 +5,7 @@
     --fe-description: #5E5E5E;
 }
 
-.carousel {
+.fe-carousel {
     text-align: center;
 }
 
@@ -27,11 +27,6 @@
     font-size: 4rem;
     font-family: 'Allerta Stencil', sans-serif;
     background-color: var(--fe-project-hover);
-}
-
-.fe-project-image img {
-    height: auto;
-    max-height: 30rem;
 }
 
 .fe-portfolio {
@@ -64,11 +59,12 @@
 .fe-project-item-image {
     border-radius: 1rem;
     overflow: hidden;
-    height: 30rem;
 }
 
 .fe-project-image img {
-    height: 30rem;
+    max-height: 30rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .fe-project-item h3 {
@@ -76,11 +72,12 @@
 }
 
 .fe-project-description {
-    margin: 25rem;
+    /* margin: auto; */
     display: inline-block;
     background-color: var(--fe-description);
     border-radius: 1rem;
     padding: 1rem;
+    max-width: 80vw;
 }
 
 .fe-project-item h4 {
@@ -118,16 +115,22 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 1440px) {
-    .fe-project-description {
-        margin: 15rem;
+@media screen and (max-width: 768px) {
+    .fe-project-image {
+        max-width: 100vw;
+        padding: 2rem;
     }
-}
 
-@media screen and (max-width: 1024px) {
-    
-}
+    .fe-project-title {
+        margin-left: -15rem;
+    }
 
-@media screen and (max-width: 600px) {
-    
+    .fe-project-description {
+        margin-left: -15rem;
+    }
+
+    .fe-github-btn,
+    .fe-live-btn {
+        margin-left: -15rem;
+    }
 }

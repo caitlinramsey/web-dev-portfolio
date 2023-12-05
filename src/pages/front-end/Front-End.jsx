@@ -62,7 +62,7 @@ function FrontEndProject() {
         }}
       /> */}
       <Slide direction="left" triggerOnce>
-        <div className="carousel">
+        <div className="fe-carousel">
           <Carousel interval={10000}>
             {projectInfoFrontEnd.map(
               ({ id, image, title, description, github, demo }) => {
@@ -74,7 +74,7 @@ function FrontEndProject() {
                     <div className="fe-project-image text-center d-block w-100">
                       <img src={image} alt={title} />
                     </div>
-                    <h4 className="fe-project-description text-center text-white fs-5 mt-3 mb-3">
+                    <h4 className="fe-project-description text-white fs-5 mt-3 mb-3">
                       {description}
                     </h4>
                     <div className="fe-project-links d-flex justify-content-center pb-5">

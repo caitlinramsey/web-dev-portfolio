@@ -42,7 +42,7 @@ function BackEndProject() {
         }}
       /> */}
       <Slide direction="left" triggerOnce>
-        <div className="carousel">
+        <div className="be-carousel">
           <Carousel interval={10000}>
             {projectInfoBackEnd.map(
               ({ id, image, title, description, github, demo }) => {
