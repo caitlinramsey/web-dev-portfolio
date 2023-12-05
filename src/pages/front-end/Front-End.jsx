@@ -3,6 +3,7 @@ import project1 from "../../assets/web-dev/zooquarium.jpg";
 import project2 from "../../assets/web-dev/note-taker.png";
 import project3 from "../../assets/web-dev/weatherpro.png";
 import project4 from "../../assets/web-dev/workday-scheduler.png";
+import project5 from '../../assets/web-dev/password-generator.png'
 import { Slide } from "react-awesome-reveal";
 import { Container } from "react-bootstrap";
 import FrontEndSkills from "../skills/front-end-skills/FrontEndSkills";
@@ -23,7 +24,7 @@ const projectInfoFrontEnd = [
     image: project2,
     title: "Note Taker",
     description:
-      "This application is used for creating, saving, and deleting notes.",
+      "This application serves as a versatile tool for users to effortlessly create, store, and manage their notes. With user-friendly features, it empowers individuals to compose, save, and organize their thoughts seamlessly. Whether capturing important ideas, jotting down reminders, or drafting to-do lists, the application provides a convenient and efficient platform. Additionally, users can easily delete notes they no longer need, ensuring a clutter-free and streamlined note-taking experience.",
     github: "https://github.com/caitlinramsey/note-taker",
     demo: "https://murmuring-eyrie-49522.herokuapp.com/",
   },
@@ -41,9 +42,18 @@ const projectInfoFrontEnd = [
     image: project4,
     title: "Workday Scheduler",
     description:
-      "This application makes it easy to schedule tasks for your work day.",
+      "Effortlessly manage your daily tasks with this intuitive scheduling application. Upon opening the calendar, the current date prominently appears at the top, providing instant orientation. The calendar is thoughtfully designed with time blocks corresponding to standard business hours, each color-coded for quick reference: past time blocks are shaded in gray, the present hour is highlighted in red, and future time blocks are displayed in refreshing green. Users can seamlessly save events for each hour of the day, ensuring organized planning, and all entries are conveniently stored in local storage for easy retrieval.",
     github: "https://github.com/caitlinramsey/work-day-scheduler",
     demo: "https://caitlinramsey.github.io/work-day-scheduler/",
+  },
+  {
+    id: 5,
+    image: project5,
+    title: "Password Generator",
+    description:
+      "This robust password generator empowers users to craft highly secure and distinctive passwords tailored to their preferences. With an array of customizable options, users can specify the inclusion or exclusion of various elements, ensuring the generated password aligns precisely with their security requirements. Whether opting for a mix of uppercase and lowercase letters, numbers, symbols, or excluding specific characters, the tool provides granular control over the password creation process. By offering this level of customization, users can confidently generate passwords that not only meet stringent security standards but also seamlessly integrate into their unique password management strategies, enhancing overall digital safety.",
+    github: "https://github.com/caitlinramsey/password-generator",
+    demo: "https://caitlinramsey.github.io/password-generator/",
   },
 ];
 
