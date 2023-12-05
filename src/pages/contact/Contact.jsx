@@ -41,7 +41,7 @@ const Contact = () => {
   return (
     <Slide direction="right" triggerOnce>
       <section id="contact">
-        <h1 className="contact-me pt-5 text-center">Contact Me</h1>
+        <h1 className="contact-me text-center">Contact Me</h1>
 
         <Container className="contact-container">
           <div className="contact-form">
@@ -65,7 +65,7 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
             <button className="contact-submit p-3" onClick={submit}>
-              Submit
+              Send
             </button>
             <span className="email-sent fs-5 fw-bold">
               {emailSent
@@ -77,7 +77,6 @@ const Contact = () => {
           <div className="contact-options">
             <article className="contact-option">
               <HiOutlineMail className="contact-option-icon" />
-              <h3>Email</h3>
               <a
                 href="mailto:caitlinramsey@outlook.com"
                 target="blank"
@@ -88,7 +87,6 @@ const Contact = () => {
             </article>
             <article className="contact-option">
               <AiFillLinkedin className="contact-option-icon" />
-              <h3>LinkedIn</h3>
               <a
                 href="https://www.linkedin.com/in/caitlin-ramsey/"
                 target="blank"
@@ -99,7 +97,6 @@ const Contact = () => {
             </article>
             <article className="contact-option">
               <AiFillGithub className="contact-option-icon" />
-              <h3>GitHub</h3>
               <a
                 href="https://github.com/caitlinramsey"
                 target="blank"
@@ -110,8 +107,8 @@ const Contact = () => {
             </article>
           </div>
 
-          <div className="photography text-center">
-            <h4 className="footer-photography text-white pb-2">
+          <div className="photography pb-5 text-center">
+            <h4 className="photography text-white pb-2">
               Want to see my photography and design? Click the logo.
             </h4>
             <a href="https://doubledowncreations.com/" className="my-logo">

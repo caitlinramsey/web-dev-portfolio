@@ -1,185 +1,188 @@
 :root {
-    --submit-background: hotpink;
-    --submit-hover: #F0FFFF;
-    --submit-fill: pink;
-    --submit-text: black;
-    --submit-border: deeppink;
-    --submit-error: red;
-  }
-  
-  #contact h1 {
-    font-size: 4rem;
-    font-family: "Preahvihear", sans-serif;
-  }
-  
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-    margin: auto;
-  }
-  
-  .contact-form {
-    width: 40vw;
-    margin: auto;
-  }
-  
-  input::placeholder {
-    color: var(--submit-text);
-    font-family: "Preahvihear", sans-serif;
-    font-size: 1rem;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--submit-background);
-    resize: none;
-    background-color: var(--submit-fill);
-  }
-  
-  textarea {
-    padding-bottom: 6.5rem;
-  }
-  
-  textarea::placeholder {
-    color: var(--submit-text);
-    font-family: "Preahvihear", sans-serif;
-    font-size: 1rem;
-  }
-  
-  .contact-submit {
-    margin-top: 0.5rem;
-    display: inline-block;
-    font-size: 1.3rem;
-    text-decoration: none;
-    background-color: var(--submit-background);
-    border-radius: 0.5rem;
-    font-family: "Preahvihear", sans-serif;
-    width: 10rem;
-  }
-  
-  .contact-submit:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-  
+  --submit-background: hotpink;
+  --submit-fill: pink;
+  --submit-text: rgb(28, 28, 28);
+  --submit-border: deeppink;
+  --submit-error: red;
+  --submit-button: white;
+}
+
+#contact {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
+}
+
+#contact h1 {
+  font-size: 4rem;
+  font-family: 'Allerta Stencil', sans-serif;
+  text-transform: none;
+  background-color: var(--submit-background);
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-top: 3rem;
+  margin: auto;
+}
+
+.contact-form {
+  width: 40vw;
+  margin: auto;
+}
+
+input::placeholder {
+  color: var(--submit-text);
+  font-family: "Preahvihear", sans-serif;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--submit-background);
+  resize: none;
+  background-color: var(--submit-fill);
+}
+
+textarea {
+  padding-bottom: 6.5rem;
+}
+
+textarea::placeholder {
+  color: var(--submit-text);
+  font-family: "Preahvihear", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-submit {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: var(--submit-background);
+  border-radius: 0.5rem;
+  font-family: "Preahvihear", sans-serif;
+  width: 10rem;
+}
+
+.contact-submit:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.email-sent {
+  padding-left: 2rem;
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: auto;
+}
+
+.contact-option {
+  background: var(--submit-background);
+  padding: 2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  width: 20rem;
+}
+
+.contact-option-icon {
+  font-size: 4rem;
+  display: block;
+  margin: auto;
+}
+
+.contact-option a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--submit-button);
+  background-color: var(--submit-text);
+  padding: .5rem;
+  border-radius: 0.5rem;
+  font-family: "Preahvihear", sans-serif;
+  border: 2px solid var(--submit-text);
+}
+
+.contact-option a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.my-logo {
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1024px) {
   .email-sent {
-    padding-left: 2rem;
+    display: block;
+    width: 80vw;
+    padding-left: 0;
+    padding-top: .5rem;
   }
-  
+
   .contact-options {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin: auto;
+    flex-direction: column;
   }
-  
-  .contact-option {
-    background: var(--submit-background);
-    padding: 2rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    width: 20rem;
+
+  .my-logo img {
+    width: 20%;
   }
-  
-  .contact-option-icon {
-    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    width: 80vw;
   }
-  
-  .contact-option h3 {
-    font-size: 1.5rem;
-    font-family: "Borel", cursive;
-    margin-bottom: 0;
-    margin-top: 1rem;
+
+  .my-logo img {
+    width: 30%;
   }
-  
-  .contact-option a {
-    margin-top: 0.5rem;
-    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact-container {
+    margin-left: auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  input::placeholder {
     font-size: 1rem;
-    text-decoration: none;
-    color: var(--submit-text);
-    background-color: var(--submit-fill);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-family: "Preahvihear", sans-serif;
-    border: 2px solid var(--submit-text);
   }
-  
-  .contact-option a:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+
+  .my-logo img {
+    width: 50%;
   }
-  
-  .my-logo {
-    overflow-x: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  #contact h1 {
+    font-size: 3rem;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .email-sent {
-      display: block;
-      width: 80vw;
-      padding-left: 0;
-      padding-top: .5rem;
-    }
-  
-    .contact-options {
-      flex-direction: column;
-    }
-  
-    .my-logo img {
-      width: 20%;
-    }
+}
+
+@media screen and (max-width: 360px) {
+  .contact-option {
+    width: 80vw;
   }
-  
-  @media screen and (max-width: 768px) {
-    .contact-form {
-      width: 80vw;
-    }
-  
-    .my-logo img {
-      width: 30%;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .my-logo img {
+    width: 80%;
   }
-  
-  @media screen and (max-width: 600px) {
-    .container.contact-container {
-      margin-left: auto;
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media screen and (max-width: 425px) {
-  
-    input::placeholder {
-      font-size: 1rem;
-    }
-  
-    .my-logo img {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    #contact h1 {
-      font-size: 3rem;
-    }
-  }
-  
-  @media screen and (max-width: 360px) {
-    .contact-option {
-      width: 80vw;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .my-logo img {
-      width: 80%;
-    }
-  }
+}
