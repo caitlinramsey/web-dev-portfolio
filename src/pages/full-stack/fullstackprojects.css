@@ -3,49 +3,47 @@
     --fs-project-background: black;
     --fs-hover-text: white;
     --fs-project-button-hover: grey;
-  }
-  
-  #fs-project {
-    /* background-image: url(../../assets/backgrounds/fs-background.png); */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+}
+
+#fs-project {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
     margin: 0;
     padding: 0;
-  }
-  
-  #fs-project h1 {
+}
+
+#fs-project h1 {
     font-size: 4rem;
     font-family: 'Allerta Stencil', sans-serif;
     background-color: var(--fs-project-hover);
-  }
-  
-  .fs-portfolio {
+}
+
+.fs-portfolio {
     color: var(--fs-hover-text);
     text-transform: none;
-  }
-  
-  .fs-project-title {
+}
+
+.fs-project-title {
     text-decoration: underline;
     text-underline-offset: .3rem;
-  }
-  
-  .fs-project-item-image {
+}
+
+.fs-project-item-image {
     border-radius: 1rem;
     overflow: hidden;
-  }
-  
-  .fs-project-image img {
+}
+
+.fs-project-image img {
     max-height: 30rem;
     max-width: 100%;
     height: auto;
-  }
-  
-  .fs-project-item h3 {
+}
+
+.fs-project-item h3 {
     font-family: "Preahvihear", sans-serif;
-  }
-  
-  .fs-project-description {
+}
+
+.fs-project-description {
     display: flex;
     justify-content: center;
     background-color: var(--fe-description);
@@ -53,39 +51,39 @@
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
-  }
-  
-  .fs-project-item h4 {
+}
+
+.fs-project-item h4 {
     font-size: 1rem;
     font-family: "Preahvihear", sans-serif;
-  }
-  
-  .fs-project-links {
+}
+
+.fs-project-links {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-  }
-  
-  .fs-github-btn,
-  .fs-live-btn {
+}
+
+.fs-github-btn,
+.fs-live-btn {
     background-color: var(--fs-project-hover);
     padding: 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
     color: var(--fs-project-background);
     font-weight: bold;
-  }
-  
-  .fs-github-btn:hover {
+}
+
+.fs-github-btn:hover {
     background-color: var(--fs-project-background);
     color: var(--fs-hover-text);
     transform: scale(1.1);
-  }
-  
-  .fs-live-btn:hover {
+}
+
+.fs-live-btn:hover {
     background-color: var(--fs-project-background);
     color: var(--fs-hover-text);
     transform: scale(1.1);
-  }
+}

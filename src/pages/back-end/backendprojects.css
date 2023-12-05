@@ -6,10 +6,8 @@
 }
 
 #be-project {
-  background-image: url(../../assets/backgrounds/be-background.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
   margin: 0;
   padding: 0;
 }
