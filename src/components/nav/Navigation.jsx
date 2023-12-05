@@ -64,6 +64,9 @@ function Navigation() {
                   <NavDropdown.Item as={Link} to="/backend">
                     Back-End Projects
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/fullstack">
+                    Full Stack Projects
+                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/webdevservices">
                     Services
                   </NavDropdown.Item>

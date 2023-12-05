@@ -2,12 +2,13 @@ import Landing from "../src/pages/landing/Landing";
 import Home from "../src/pages/home/Home";
 import Navigation from '../src/components/nav/Navigation';
 import About from '../src/pages/about/About';
-import FrontEnd from '../src/pages/front-end/Front-End'
-import BackEnd from '../src/pages/back-end/Back-End'
-import WebDevServices from '../src/pages/web-dev-services/WebDevServices'
-import GraphicDesignProjects from '../src/pages/graphic-design-projects/GraphicDesignProjects'
-import GraphicDesignServices from '../src/pages/graphic-design-services/GraphicDesignServices'
-import Contact from '../src/pages/contact/Contact'
+import FrontEnd from '../src/pages/front-end/Front-End';
+import BackEnd from '../src/pages/back-end/Back-End';
+import FullStack from '../src/pages/full-stack/FullStack';
+import WebDevServices from '../src/pages/web-dev-services/WebDevServices';
+import GraphicDesignProjects from '../src/pages/graphic-design-projects/GraphicDesignProjects';
+import GraphicDesignServices from '../src/pages/graphic-design-services/GraphicDesignServices';
+import Contact from '../src/pages/contact/Contact';
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -30,6 +31,7 @@ function AppWithNavigation() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/frontend" element={<FrontEnd />} />
           <Route exact path="/backend" element={<BackEnd />} />
+          <Route exact path="/fullstack" element={<FullStack />} />
           <Route exact path="/webdevservices" element={<WebDevServices />} />
           <Route exact path="/graphicdesignprojects" element={<GraphicDesignProjects />} />
           <Route exact path="/graphicdesignservices" element={<GraphicDesignServices />} />
