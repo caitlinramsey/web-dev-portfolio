@@ -5,6 +5,8 @@
 #header {
   padding-top: 3rem;
   background-image: url(../../assets/backgrounds/home-background-1440.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -97,44 +99,42 @@
 
 @media screen and (max-width: 1024px) {
   .header-container h1 {
-    margin-left: auto;
     font-size: 5rem;
-  }
-
-  .header-container h4 {
-    font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header-container h1 {
-    margin-left: auto;
     font-size: 4rem;
-  }
-
-  .header-container h4 {
-    font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header-container h1 {
-    margin-left: auto;
     font-size: 3rem;
   }
 
   .header-container h4 {
     font-size: 1.5rem;
   }
+
+  .social-media ul li a .fab {
+    font-size: 4rem;
+  }
+
+  .social-media ul li a::before {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .header-container h1 {
-    margin-left: auto;
     font-size: 2rem;
   }
+}
 
-  .header-container h4 {
-    font-size: 1.5rem;
+@media screen and (max-width: 280px) {
+  #code-gif {
+    margin-left: -2rem;
   }
 }
