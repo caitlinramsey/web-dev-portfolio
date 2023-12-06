@@ -15,7 +15,7 @@ const Contact = () => {
 
   const submit = () => {
     if (name && email && message) {
-      const serviceId = "service-57xz7l2";
+      const serviceId = "service_usemm4p";
       const templateId = "template-4fk5mag";
       const userId = "tu-0hbMx3lSgm8Ulh";
       const templateParams = {
