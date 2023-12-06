@@ -135,19 +135,11 @@ textarea::placeholder {
   .contact-options {
     flex-direction: column;
   }
-
-  .my-logo img {
-    width: 20%;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .contact-form {
     width: 80vw;
-  }
-
-  .my-logo img {
-    width: 30%;
   }
 }
 
@@ -158,14 +150,33 @@ textarea::placeholder {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
+  .photography {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
 
+@media screen and (max-width: 425px) {
   input::placeholder {
     font-size: 1rem;
   }
 
+  .photography {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .my-logo img {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #contact h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 3.8rem;
   }
 }
 
