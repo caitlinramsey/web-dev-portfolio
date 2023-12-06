@@ -61,9 +61,15 @@
   font-family: "Preahvihear", sans-serif;
 }
 
-@media screen and (max-width: 1280px) {
-  .graphic-design-services-container {
+@media screen and (max-width: 1024px) {
+  #graphic-design-services {
     padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #graphic-design-services h1 {
+    font-size: 3rem;
   }
 }
 
@@ -76,18 +82,13 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   #graphic-design-services h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
-  .graphic-design-services-container {
-    padding-left: 2rem;
-    margin: auto;
-  }
-
-  .graphic-design-service-header h2 {
-    font-size: 1.7rem;
+  #graphic-design-services {
+    padding-bottom: 2rem;
   }
 }
 

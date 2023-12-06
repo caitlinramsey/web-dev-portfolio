@@ -29,15 +29,18 @@
 
 .equistaff, .danahall, .kentucky-tack, .virginia-a-circuit, .sarah-wildasin, .creekside-eventing, .cowan-ranch, .barn-staff-williston, .agri-associates, .ford-field, .barn-manager-boston, .diasti-stables, .scva, .exercise-rider, .graphic-designer, .groom-tryon, .hunter-jumper-washington, .minitube, .horse-show-organizer {
     max-width: 800px;
-    max-height: 800px;
+    /* max-height: 800px; */
+    height: auto;
 }
 
 .ps-ad {
     width: 800px;
-    height: 670px;
+    /* height: 670px; */
+    height: auto;
 }
 
 .candidate-flyer, .client-flyer {
     width: 800px;
-    height: 1000px;
+    /* height: 1000px; */
+    height: auto;
 }

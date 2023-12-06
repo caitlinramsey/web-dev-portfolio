@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 912px) {
     .graphic-design-skills-section {
         columns: 2;
         padding-top: 1rem;
@@ -51,7 +51,6 @@
 @media screen and (max-width: 425px) {
     .graphic-design-section-title h3 {
         font-size: 1rem;
-        padding-left: 1rem;
     }
 }
 

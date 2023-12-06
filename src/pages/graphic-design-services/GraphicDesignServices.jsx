@@ -14,7 +14,7 @@ function GraphicDesignServices() {
       <Container className="graphic-design-services-container">
         <article className="graphic-design-service">
           <div className="graphic-design-service-header p-4">
-            <h2>Graphic Design | Social Media Management</h2>
+            <h2>Graphic Design | 3D Design | Social Media Management</h2>
           </div>
 
           <ul className="graphic-design-service-name p-4 pt-5">
