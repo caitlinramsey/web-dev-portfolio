@@ -10,6 +10,7 @@ function Navigation() {
   const [showGraphicDesignDropdown, setShowGraphicDesignDropdown] =
     useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,13 +36,18 @@ function Navigation() {
             </div>
           </Col>
           <Col>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
+            <Navbar.Toggle onClick={() => setMobileMenuVisible(!mobileMenuVisible)} />
+            <Navbar.Collapse in={mobileMenuVisible} onExited={() => setMobileMenuVisible(false)}>
               <Nav className="navigation m-auto">
                 <Nav.Link
                   as={Link}
                   to="/home"
                   className={location.pathname === "/home" ? "active" : ""}
+                  onClick={() => {
+                    setShowWebDevDropdown(false);
+                    setShowGraphicDesignDropdown(false);
+                    setMobileMenuVisible(false);
+                  }}
                 >
                   Home
                 </Nav.Link>
@@ -49,6 +55,11 @@ function Navigation() {
                   as={Link}
                   to="/about"
                   className={location.pathname === "/about" ? "active" : ""}
+                  onClick={() => {
+                    setShowWebDevDropdown(false);
+                    setShowGraphicDesignDropdown(false);
+                    setMobileMenuVisible(false);
+                  }}
                 >
                   About
                 </Nav.Link>
@@ -57,6 +68,11 @@ function Navigation() {
                   show={showWebDevDropdown}
                   onMouseEnter={() => setShowWebDevDropdown(true)}
                   onMouseLeave={() => setShowWebDevDropdown(false)}
+                  onClick={() => {
+                    setShowWebDevDropdown(false);
+                    setShowGraphicDesignDropdown(false);
+                    setMobileMenuVisible(false);
+                  }}
                 >
                   <NavDropdown.Item as={Link} to="/frontend">
                     Front-End Projects
@@ -76,6 +92,7 @@ function Navigation() {
                   show={showGraphicDesignDropdown}
                   onMouseEnter={() => setShowGraphicDesignDropdown(true)}
                   onMouseLeave={() => setShowGraphicDesignDropdown(false)}
+                  onClick={() => setMobileMenuVisible(false)}
                 >
                   <NavDropdown.Item as={Link} to="/graphicdesignprojects">
                     Projects
@@ -88,6 +105,11 @@ function Navigation() {
                   as={Link}
                   to="/contact"
                   className={location.pathname === "/contact" ? "active" : ""}
+                  onClick={() => {
+                    setShowWebDevDropdown(false);
+                    setShowGraphicDesignDropdown(false);
+                    setMobileMenuVisible(false);
+                  }}
                 >
                   Contact
                 </Nav.Link>
