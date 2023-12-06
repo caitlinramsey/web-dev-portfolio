@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
-import emailjs from "emailjs-com";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import navLogo from "../../assets/logo-white-thick.png";
