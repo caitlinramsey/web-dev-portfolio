@@ -10,6 +10,7 @@ function Navigation() {
   const [showGraphicDesignDropdown, setShowGraphicDesignDropdown] =
     useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileMenuVisible, setMobileMenuVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,6 +24,30 @@ function Navigation() {
     };
   }, []);
 
+  const handleMobileMenuToggleClick = () => {
+    setMobileMenuVisible(!mobileMenuVisible);
+    setShowWebDevDropdown(false);
+    setShowGraphicDesignDropdown(false);
+  };
+
+  const handleWebDevDropdownMouseEnter = () => {
+    setShowWebDevDropdown(true);
+    setShowGraphicDesignDropdown(false);
+  };
+
+  const handleWebDevDropdownMouseLeave = () => {
+    setShowWebDevDropdown(false);
+  };
+
+  const handleGraphicDesignDropdownMouseEnter = () => {
+    setShowGraphicDesignDropdown(true);
+    setShowWebDevDropdown(false);
+  };
+
+  const handleGraphicDesignDropdownMouseLeave = () => {
+    setShowGraphicDesignDropdown(false);
+  };
+
   return (
     <Navbar expand="lg" className="nav-outer navbar">
       <Container className="nav-inner responsive wrapper">
@@ -35,8 +60,8 @@ function Navigation() {
             </div>
           </Col>
           <Col>
-            <Navbar.Toggle />
-            <Navbar.Collapse>
+            <Navbar.Toggle onClick={handleMobileMenuToggleClick} />
+            <Navbar.Collapse in={mobileMenuVisible} onExited={() => setMobileMenuVisible(false)}>
               <Nav className="navigation m-auto">
                 <Nav.Link
                   as={Link}
@@ -55,9 +80,8 @@ function Navigation() {
                 <NavDropdown
                   title="Web Development"
                   show={showWebDevDropdown}
-                  onMouseEnter={() => setShowWebDevDropdown(true)}
-                  onMouseLeave={() => setShowWebDevDropdown(false)}
-                  onClick={() => setShowWebDevDropdown(false)}
+                  onMouseEnter={handleWebDevDropdownMouseEnter}
+                  onMouseLeave={handleWebDevDropdownMouseLeave}
                 >
                   <NavDropdown.Item as={Link} to="/frontend">
                     Front-End Projects
@@ -75,9 +99,8 @@ function Navigation() {
                 <NavDropdown
                   title="Graphic Design"
                   show={showGraphicDesignDropdown}
-                  onMouseEnter={() => setShowGraphicDesignDropdown(true)}
-                  onMouseLeave={() => setShowGraphicDesignDropdown(false)}
-                  onClick={() => setShowWebDevDropdown(false)}
+                  onMouseEnter={handleGraphicDesignDropdownMouseEnter}
+                  onMouseLeave={handleGraphicDesignDropdownMouseLeave}
                 >
                   <NavDropdown.Item as={Link} to="/graphicdesignprojects">
                     Projects
