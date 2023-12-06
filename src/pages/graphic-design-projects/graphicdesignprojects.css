@@ -27,7 +27,25 @@
     font-family: 'Allerta Stencil', sans-serif;
 }
 
-.equistaff, .danahall, .kentucky-tack, .virginia-a-circuit, .sarah-wildasin, .creekside-eventing, .cowan-ranch, .barn-staff-williston, .agri-associates, .ford-field, .barn-manager-boston, .diasti-stables, .scva, .exercise-rider, .graphic-designer, .groom-tryon, .hunter-jumper-washington, .minitube, .horse-show-organizer {
+.equistaff,
+.danahall,
+.kentucky-tack,
+.virginia-a-circuit,
+.sarah-wildasin,
+.creekside-eventing,
+.cowan-ranch,
+.barn-staff-williston,
+.agri-associates,
+.ford-field,
+.barn-manager-boston,
+.diasti-stables,
+.scva,
+.exercise-rider,
+.graphic-designer,
+.groom-tryon,
+.hunter-jumper-washington,
+.minitube,
+.horse-show-organizer {
     max-width: 800px;
     /* max-height: 800px; */
     height: auto;
@@ -35,12 +53,385 @@
 
 .ps-ad {
     width: 800px;
-    /* height: 670px; */
-    height: auto;
+    height: 670px;
 }
 
-.candidate-flyer, .client-flyer {
+.candidate-flyer,
+.client-flyer {
     width: 800px;
     /* height: 1000px; */
     height: auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .graphic-design-container {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 600px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 600px;
+        height: 500px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 600px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 450px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 450px;
+        height: 376px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 450px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 912px) {
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 400px;
+        height: 340px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 400px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+    .graphic-design-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 800px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 700px;
+        height: 600px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 700px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .graphic-design-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 800px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 700px;
+        height: 600px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 700px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 350px;
+        height: 300px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 350px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .graphic-design-container {
+        margin: 3rem;
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 300px;
+        height: 250px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .graphic-design-container {
+        margin: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .graphic-design-container {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .graphic-design-container {
+        margin: 1.5rem;
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 250px;
+        height: 200px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 250px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .graphic-design-container {
+        margin: 1.5rem;
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 200px;
+        height: 150px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 200px;
+        height: auto;
+    }
+
 }
