@@ -33,7 +33,7 @@ const projectInfoBackEnd = [
     image: project3,
     title: "Employee Tracker",
     description:
-      "Borrowhood is an application which allows people to borrow needed items from their neighbors. It also allows neighbors to lend and borrow tools, equipment, and household items with or from one another. It encourages community interaction and sharing of resources which, in turn, minimizes individual purchases and decreases landfill waste. It is easy and fast to sign up and start listing items available for lending or searching for what you need!",
+      "This comprehensive application has been meticulously crafted with the primary goal of consolidating essential organizational information into a centralized hub. By leveraging the power of MySQL and Inquirer, it offers a seamless and user-friendly interface for accessing a wealth of data pertaining to employees, managers, departments, roles, salaries, and identification details.",
     github: "https://github.com/caitlinramsey/sql-employee-tracker",
     demo: "https://drive.google.com/file/d/11-CLwpNzczoGF8fkAh-VjRQTGquNHleA/view",
   },
