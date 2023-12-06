@@ -87,3 +87,15 @@
     color: var(--fs-hover-text);
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    #fs-project h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #fs-project h1 {
+        font-size: 2rem;
+    }
+}
