@@ -51,3 +51,9 @@
 .active {
   color: var(--nav-background) !important;
 }
+
+.navbar-toggler {
+  display: block;
+  margin: auto;
+  background-color: var(--nav-text);
+}
