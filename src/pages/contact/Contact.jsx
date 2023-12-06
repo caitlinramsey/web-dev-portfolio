@@ -13,26 +13,26 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [emailSent, setEmailSent] = useState(false);
 
-  const submit = () => {
+  const submit = async () => {
     if (name && email && message) {
-      const serviceId = "service_usemm4p";
-      const templateId = "template-4fk5mag";
-      const userId = "tu-0hbMx3lSgm8Ulh";
-      const templateParams = {
-        name,
-        email,
-        message,
-      };
+      try {
+        const emailjs = await import("emailjs-com");
 
-      emailjs
-        .send(serviceId, templateId, templateParams, userId)
-        .then((response) => console.log(response))
-        .then((error) => console.log(error));
+        const serviceId = "service_usemm4p";
+        const templateId = "template_8y1am1i";
+        const userId = "tu_0hbMx3lSgm8Ulh";
+        const templateParams = { name, email, message };
 
-      setName("");
-      setEmail("");
-      setMessage("");
-      setEmailSent(true);
+        const response = await emailjs.send(serviceId, templateId, templateParams, userId)
+
+        console.log("Success!:", response);
+        setName("");
+        setEmail("");
+        setMessage("");
+        setEmailSent(true);
+      } catch (error) {
+        console.error("Message send error:", error)
+      }
     } else {
       alert("Please fill in all fields.");
     }
@@ -67,7 +67,7 @@ const Contact = () => {
             <button className="contact-submit p-3" onClick={submit}>
               Send
             </button>
-            <span className="email-sent fs-5 fw-bold">
+            <span className="email-sent fs-5 text-white fw-bold">
               {emailSent
                 ? "Thank you for your message, we'll be in touch!"
                 : ""}
