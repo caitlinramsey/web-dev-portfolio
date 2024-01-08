@@ -8,7 +8,7 @@
 }
 
 .tiktok-figma {
-    width: 90vw;
+    max-width: 100%;
     height: auto;
 }
 
@@ -343,10 +343,46 @@
 }
 
 @media screen and (max-width: 430px) {
-    .graphic-design-container {
-        margin: 3rem;
+    .graphic-design-projects {
+        align-items: center;
     }
 
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .ps-ad {
+        width: 350px;
+        height: 300px;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .equistaff,
     .danahall,
     .kentucky-tack,
@@ -383,23 +419,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
-    .graphic-design-container {
-        margin: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .graphic-design-container {
-        margin: 1rem;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .graphic-design-container {
-        margin: 1.5rem;
-    }
-
+@media screen and (max-width: 280px) {
     .equistaff,
     .danahall,
     .kentucky-tack,
@@ -431,47 +451,6 @@
     .candidate-flyer,
     .client-flyer {
         width: 250px;
-        height: auto;
-    }
-
-}
-
-@media screen and (max-width: 280px) {
-    .graphic-design-container {
-        margin: 1.5rem;
-    }
-
-    .equistaff,
-    .danahall,
-    .kentucky-tack,
-    .virginia-a-circuit,
-    .sarah-wildasin,
-    .creekside-eventing,
-    .cowan-ranch,
-    .barn-staff-williston,
-    .agri-associates,
-    .ford-field,
-    .barn-manager-boston,
-    .diasti-stables,
-    .scva,
-    .exercise-rider,
-    .graphic-designer,
-    .groom-tryon,
-    .hunter-jumper-washington,
-    .minitube,
-    .horse-show-organizer {
-        max-width: 200px;
-        height: auto;
-    }
-
-    .ps-ad {
-        width: 200px;
-        height: 150px;
-    }
-
-    .candidate-flyer,
-    .client-flyer {
-        width: 200px;
         height: auto;
     }
 
