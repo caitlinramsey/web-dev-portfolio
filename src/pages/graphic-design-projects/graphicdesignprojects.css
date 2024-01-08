@@ -13,7 +13,9 @@
 }
 
 .graphic-design-container {
-    margin: 5rem;
+    margin: auto;
+    max-width: 1700px;
+    padding: 0 1rem;
     padding-bottom: 5rem;
 }
 
@@ -145,7 +147,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-
+    .graphic-design-container {
+        margin: auto;
+        max-width: 950px;
+    }
+    
     .equistaff,
     .danahall,
     .kentucky-tack,
