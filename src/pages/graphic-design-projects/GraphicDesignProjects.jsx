@@ -41,7 +41,7 @@ function GraphicDesignProjects() {
 
         <Slide direction="left" triggerOnce>
           <div className="canva">
-            <h1 className="canva-title text-center bg-transparent">Canva</h1>
+            <h1 className="canva-title text-center bg-transparent mt-3 mb-3 pb-2">Canva | Adobe Creative Suite</h1>
             <div className="graphic-design-projects">
               <img src={equistaff} className='equistaff' alt="an advertisement for an equestrian recruiting company" />
               <img src={danahall} className='danahall' alt="an advertisement for a job at a horse stable" />

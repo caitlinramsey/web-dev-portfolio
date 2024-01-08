@@ -7,6 +7,11 @@
     background-color: var(--graphic-design-background);
 }
 
+.figma-title,
+.canva-title {
+    border: 1px solid white;
+}
+
 .tiktok-figma {
     max-width: 100%;
     height: auto;
