@@ -68,11 +68,7 @@
 
 @media screen and (max-width: 1440px) {
     .graphic-design-container {
-        margin: 2rem;
-    }
-
-    .graphic-design-projects {
-        gap: 5px
+        margin: auto;
     }
 
     .equistaff,
