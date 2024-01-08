@@ -3,6 +3,7 @@ import "./graphicdesignprojects.css";
 import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
 
+import tiktokFigma from '../../assets/graphic-design/figma/tiktok.png';
 import equistaff from '../../assets/graphic-design/equistaff.png';
 import danahall from '../../assets/graphic-design/dana-hall-staff.png';
 import kentuckyTack from '../../assets/graphic-design/tack-shop-kentucky.png';
@@ -28,38 +29,44 @@ import horseShowOrganizer from '../../assets/graphic-design/horse-show-organizer
 
 function GraphicDesignProjects() {
   return (
-    <section
-      id="graphic-design-projects"
-    >
-      <h1>Graphic Design Projects</h1>
+    <section id="graphic-design-projects">
+      <h1 className="graphic-design-projects-title">Graphic Design Projects</h1>
       <Container className="graphic-design-container">
         <Slide direction="left" triggerOnce>
-          return (
-          <div className="graphic-design-projects">
-            <img src={equistaff} className='equistaff' alt="an advertisement for an equestrian recruiting company"></img>
-            <img src={danahall} className='danahall' alt="an advertisement for a job at a horse stable"></img>
-            <img src={kentuckyTack} className='kentucky-tack' alt="an advertisement for a job at a tack shop"></img>
-            <img src={virginiaACircuit} className='virginia-a-circuit' alt="an advertisement for a job as a show groom and rider"></img>
-            <img src={sarahWildasin} className='sarah-wildasin' alt="an advertisement for a job as a stay at home eventing groom"></img>
-            <img src={psAd} className='ps-ad' alt="a mock advertisement for PlayStation"></img>
-            <img src={creeksideEventing} className='creekside-eventing' alt="an advertisement for a job as an assistant trainer"></img>
-            <img src={cowanRanch} className='cowan-ranch' alt="an advertisement for a job as barn staff"></img>
-            <img src={candiateFlyer} className='candidate-flyer' alt="an advertisement for candidates from equistaff"></img>
-            <img src={clientFlyer} className='client-flyer' alt="an advertisement for clients for equistaff"></img>
-            <img src={barnStaffWilliston} className='barn-staff-williston' alt="an advertisement for a job as barn staff"></img>
-            <img src={argiAssociates} className='agri-associates' alt="an advertisement for a job as a equine feed/nutrition sales associate"></img>
-            <img src={fordField} className='ford-field' alt="an advertisement for a job as an equestrian director"></img>
-            <img src={barnManagerBoston} className='barn-manager-boston' alt="an advertisement for a job as a barn manager"></img>
-            <img src={diastiStables} className='diasti-stables' alt="an advertisement for a job as an equestrian director"></img>
-            <img src={scva} className='scva' alt="an advertisement for a job as an eventing groom"></img>
-            <img src={exerciseRider} className='exercise-rider' alt="an advertisement for a job as an exercise rider"></img>
-            <img src={graphicDesigner} className='graphic-designer' alt="an advertisement for a job as a graphic designer"></img>
-            <img src={groomTryon} className='groom-tryon' alt="an advertisement for a job as a groom"></img>
-            <img src={hunterJumperWashington} className='hunter-jumper-washington' alt="an advertisement for a job as a hunter jumper instructor"></img>
-            <img src={minitube} className='minitube' alt="an advertisement for a job as an outside sales representative"></img>
-            <img src={horseShowOrganizer} className='horse-show-organizer' alt="an advertisement for a job as a horse show organizer"></img>
+          <div className="figma">
+            <h1 className="figma-title text-center bg-transparent">Figma</h1>
+            <img src={tiktokFigma} className='tiktok-figma' alt='a design I made in Figma that is a recreation of tiktok' />
           </div>
-          );
+        </Slide>
+
+        <Slide direction="left" triggerOnce>
+          <div className="canva">
+            <h1 className="canva-title text-center bg-transparent">Canva</h1>
+            <div className="graphic-design-projects">
+              <img src={equistaff} className='equistaff' alt="an advertisement for an equestrian recruiting company" />
+              <img src={danahall} className='danahall' alt="an advertisement for a job at a horse stable" />
+              <img src={kentuckyTack} className='kentucky-tack' alt="an advertisement for a job at a tack shop" />
+              <img src={virginiaACircuit} className='virginia-a-circuit' alt="an advertisement for a job as a show groom and rider" />
+              <img src={sarahWildasin} className='sarah-wildasin' alt="an advertisement for a job as a stay at home eventing groom" />
+              <img src={psAd} className='ps-ad' alt="a mock advertisement for PlayStation" />
+              <img src={creeksideEventing} className='creekside-eventing' alt="an advertisement for a job as an assistant trainer" />
+              <img src={cowanRanch} className='cowan-ranch' alt="an advertisement for a job as barn staff" />
+              <img src={candiateFlyer} className='candidate-flyer' alt="an advertisement for candidates from equistaff" />
+              <img src={clientFlyer} className='client-flyer' alt="an advertisement for clients for equistaff" />
+              <img src={barnStaffWilliston} className='barn-staff-williston' alt="an advertisement for a job as barn staff" />
+              <img src={argiAssociates} className='agri-associates' alt="an advertisement for a job as a equine feed/nutrition sales associate" />
+              <img src={fordField} className='ford-field' alt="an advertisement for a job as an equestrian director" />
+              <img src={barnManagerBoston} className='barn-manager-boston' alt="an advertisement for a job as a barn manager" />
+              <img src={diastiStables} className='diasti-stables' alt="an advertisement for a job as an equestrian director" />
+              <img src={scva} className='scva' alt="an advertisement for a job as an eventing groom" />
+              <img src={exerciseRider} className='exercise-rider' alt="an advertisement for a job as an exercise rider" />
+              <img src={graphicDesigner} className='graphic-designer' alt="an advertisement for a job as a graphic designer" />
+              <img src={groomTryon} className='groom-tryon' alt="an advertisement for a job as a groom" />
+              <img src={hunterJumperWashington} className='hunter-jumper-washington' alt="an advertisement for a job as a hunter jumper instructor" />
+              <img src={minitube} className='minitube' alt="an advertisement for a job as an outside sales representative" />
+              <img src={horseShowOrganizer} className='horse-show-organizer' alt="an advertisement for a job as a horse show organizer" />
+            </div>
+          </div>
         </Slide>
       </Container>
     </section>

@@ -7,6 +7,11 @@
     background-color: var(--graphic-design-background);
 }
 
+.tiktok-figma {
+    width: 90vw;
+    height: auto;
+}
+
 .graphic-design-container {
     margin: 5rem;
     padding-bottom: 5rem;
@@ -14,12 +19,12 @@
 
 .graphic-design-projects {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
 }
 
-#graphic-design-projects h1 {
+.graphic-design-projects-title {
     background-color: var(--graphic-projects-header);
     text-transform: none;
     padding-top: 1rem;
@@ -47,7 +52,6 @@
 .minitube,
 .horse-show-organizer {
     max-width: 800px;
-    /* max-height: 800px; */
     height: auto;
 }
 
@@ -59,7 +63,6 @@
 .candidate-flyer,
 .client-flyer {
     width: 800px;
-    /* height: 1000px; */
     height: auto;
 }
 
@@ -67,9 +70,48 @@
     .graphic-design-container {
         margin: 2rem;
     }
+
+    .graphic-design-projects {
+        gap: 5px
+    }
+
+    .equistaff,
+    .danahall,
+    .kentucky-tack,
+    .virginia-a-circuit,
+    .sarah-wildasin,
+    .creekside-eventing,
+    .cowan-ranch,
+    .barn-staff-williston,
+    .agri-associates,
+    .ford-field,
+    .barn-manager-boston,
+    .diasti-stables,
+    .scva,
+    .exercise-rider,
+    .graphic-designer,
+    .groom-tryon,
+    .hunter-jumper-washington,
+    .minitube,
+    .horse-show-organizer {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ps-ad {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .candidate-flyer,
+    .client-flyer {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1280px) {
+
     .equistaff,
     .danahall,
     .kentucky-tack,
@@ -107,6 +149,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+
     .equistaff,
     .danahall,
     .kentucky-tack,
@@ -144,6 +187,7 @@
 }
 
 @media screen and (max-width: 912px) {
+
     .equistaff,
     .danahall,
     .kentucky-tack,
@@ -265,6 +309,7 @@
 }
 
 @media screen and (max-width: 540px) {
+
     .equistaff,
     .danahall,
     .kentucky-tack,
