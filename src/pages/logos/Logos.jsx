@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 
 function Logos() {
     return (
-      <section id="logo-projects">
+      <section id="logo">
         <h1 className="logo-title">Logos</h1>
         <Container className="logo-container">
           <Slide direction="left" triggerOnce>

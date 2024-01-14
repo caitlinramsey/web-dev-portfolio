@@ -3,9 +3,9 @@
     --logo-title: hotpink;
 }
 
-#logo-projects {
+#logo {
     background-color: var(--logo-background);
-    height: 100%;
+    height: 100vh;
 }
 
 .logo-title {
@@ -17,8 +17,31 @@
     margin-bottom: 2rem;
 }
 
+.logo-projects {
+    display: flex;
+    justify-content: center;
+}
+
 .ddclogo {
     width: 40rem;
     height: auto;
     border-radius: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+    .ddclogo {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ddclogo {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .ddclogo {
+        width: 15rem;
+    }
 }
