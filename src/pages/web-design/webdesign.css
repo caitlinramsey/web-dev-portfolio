@@ -1,0 +1,37 @@
+:root {
+    --web-projects-header: hotpink;
+    --web-design-background: rgb(16, 18, 18);
+}
+
+#web-design-projects {
+    background-color: var(--web-design-background);
+    height: 100%;
+}
+
+.figma-title {
+    border: 1px solid white;
+}
+
+.tiktok-figma {
+    max-width: 100%;
+    height: auto;
+}
+
+.web-design-container {
+    padding-bottom: 5rem;
+}
+
+.web-design-projects-title {
+    background-color: var(--web-projects-header);
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .web-design-container {
+        margin: auto;
+        max-width: 950px;
+    }
+}

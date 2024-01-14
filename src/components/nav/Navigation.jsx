@@ -102,8 +102,14 @@ function Navigation() {
                   onMouseEnter={handleGraphicDesignDropdownMouseEnter}
                   onMouseLeave={handleGraphicDesignDropdownMouseLeave}
                 >
-                  <NavDropdown.Item as={Link} to="/graphicdesignprojects">
-                    Projects
+                  <NavDropdown.Item as={Link} to="/advertising">
+                    Advertising
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/logos">
+                    Logos
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/webdesign">
+                    Web Design
                   </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/graphicdesignservices">
                     Services

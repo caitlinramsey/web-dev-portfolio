@@ -1,9 +1,8 @@
 import React from "react";
-import "./graphicdesignprojects.css";
+import "./advertising.css";
 import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
 
-import tiktokFigma from '../../assets/graphic-design/figma/tiktok.png';
 import equistaff from '../../assets/graphic-design/equistaff.png';
 import danahall from '../../assets/graphic-design/dana-hall-staff.png';
 import kentuckyTack from '../../assets/graphic-design/tack-shop-kentucky.png';
@@ -27,25 +26,16 @@ import hunterJumperWashington from '../../assets/graphic-design/hunter-jumper-in
 import minitube from '../../assets/graphic-design/minitube-usa.png';
 import horseShowOrganizer from '../../assets/graphic-design/horse-show-organizer.png';
 
-function GraphicDesignProjects() {
+function Advertising() {
   return (
-    <section id="graphic-design-projects">
-      <h1 className="graphic-design-projects-title">Graphic Design Projects</h1>
-      <Container className="graphic-design-container">
-        <Slide direction="left" triggerOnce>
-          <div className="figma">
-            <h1 className="figma-title text-center bg-transparent">Figma</h1>
-            <h3 className="prototype text-center text-white">Click on the image to be taken to the prototype!</h3>
-            <a href="https://www.figma.com/proto/yaGrdqtrMlKF5XaEIIhARp/First-Design-Challenge---TikTok-MockUp?type=design&node-id=3-2&t=DdWEUzB4UmafCJc9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2" target="_blank" rel="noopener noreferrer">
-              <img src={tiktokFigma} className='tiktok-figma' alt='a design I made in Figma that is a recreation of tiktok' />
-            </a>
-          </div>
-        </Slide>
+    <section id="advertising-projects">
+      <h1 className="advertising-projects-title">Advertising</h1>
+      <Container className="advertising-container">
 
         <Slide direction="left" triggerOnce>
           <div className="canva">
             <h1 className="canva-title text-center bg-transparent mt-3 mb-3 pb-2">Canva | Adobe Creative Suite</h1>
-            <div className="graphic-design-projects">
+            <div className="advertising-projects">
               <img src={equistaff} className='equistaff' alt="an advertisement for an equestrian recruiting company" />
               <img src={danahall} className='danahall' alt="an advertisement for a job at a horse stable" />
               <img src={kentuckyTack} className='kentucky-tack' alt="an advertisement for a job at a tack shop" />
@@ -76,4 +66,4 @@ function GraphicDesignProjects() {
   );
 }
 
-export default GraphicDesignProjects;
+export default Advertising;

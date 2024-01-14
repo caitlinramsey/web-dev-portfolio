@@ -6,7 +6,9 @@ import FrontEnd from '../src/pages/front-end/Front-End';
 import BackEnd from '../src/pages/back-end/Back-End';
 import FullStack from '../src/pages/full-stack/FullStack';
 import WebDevServices from '../src/pages/web-dev-services/WebDevServices';
-import GraphicDesignProjects from '../src/pages/graphic-design-projects/GraphicDesignProjects';
+import Logos from '../src/pages/logos/Logos';
+import Advertising from '../src/pages/advertising/Advertising';
+import WebDesign from '../src/pages/web-design/WebDesign';
 import GraphicDesignServices from '../src/pages/graphic-design-services/GraphicDesignServices';
 import Contact from '../src/pages/contact/Contact';
 import "./App.css";
@@ -33,7 +35,9 @@ function AppWithNavigation() {
           <Route exact path="/backend" element={<BackEnd />} />
           <Route exact path="/fullstack" element={<FullStack />} />
           <Route exact path="/webdevservices" element={<WebDevServices />} />
-          <Route exact path="/graphicdesignprojects" element={<GraphicDesignProjects />} />
+          <Route exact path="/logos" element={<Logos />} />
+          <Route exact path="/advertising" element={<Advertising />} />
+          <Route exact path="/webdesign" element={<WebDesign />} />
           <Route exact path="/graphicdesignservices" element={<GraphicDesignServices />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />

@@ -1,0 +1,24 @@
+:root {
+    --logo-background: rgb(16, 18, 18);
+    --logo-title: hotpink;
+}
+
+#logo-projects {
+    background-color: var(--logo-background);
+    height: 100%;
+}
+
+.logo-title {
+    background-color: var(--logo-title);
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.ddclogo {
+    width: 40rem;
+    height: auto;
+    border-radius: 2rem;
+}
