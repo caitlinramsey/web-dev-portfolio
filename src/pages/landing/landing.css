@@ -409,3 +409,9 @@ h1 {
     font-size: 1.5rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .main-landing h1 {
+    font-size: 1.7rem;
+  }
+}
