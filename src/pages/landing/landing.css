@@ -403,3 +403,9 @@ h1 {
 .button:not(:last-child) {
   margin-bottom: 64px;
 }
+
+@media screen and (max-width: 430px) {
+  .roller #rolltext {
+    font-size: 1.5rem;
+  }
+}
