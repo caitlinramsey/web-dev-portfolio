@@ -5,10 +5,9 @@ import { Slide } from 'react-awesome-reveal';
 
 function About() {
     return (
-        <Slide direction='right' triggerOnce>
-            <section id='about-me' className='about-me'>
-                <h1 className='text-center'>About Me</h1>
-
+        <section id='about-me' className='about-me'>
+            <h1 className='text-center'>About Me</h1>
+            <Slide direction='right' triggerOnce>
                 <Container className='about-me-container'>
                     <div className='about-me'>
                         <div className='about-me-image'></div>
@@ -26,8 +25,8 @@ function About() {
                         </p>
                     </div>
                 </Container>
-            </section>
-        </Slide>
+            </Slide>
+        </section>
     );
 }
 

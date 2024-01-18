@@ -9,7 +9,9 @@
 }
 
 .navbar {
-  background-color: var(--nav-bg);
+  background-image: url('../../assets/nav-bg/web-dev-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Playpen Sans', cursive;
 }
 
@@ -18,12 +20,12 @@
   padding: 14px 16px;
 }
 
-.navbar>.container, 
-.navbar>.container-fluid, 
-.navbar>.container-lg, 
-.navbar>.container-md, 
-.navbar>.container-sm, 
-.navbar>.container-xl, 
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
 .navbar>.container-xxl {
   display: flex;
   flex-wrap: inherit;
@@ -56,4 +58,34 @@
   display: block;
   margin: auto;
   background-color: var(--nav-text);
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    background-image: url('../../assets/nav-bg/web-dev-1024.png');
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-image: url('../../assets/nav-bg/web-dev-768.png');
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    background-image: url('../../assets/nav-bg/web-dev-425.png');
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar {
+    background-image: url('../../assets/nav-bg/web-dev-375.png');
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    background-image: url('../../assets/nav-bg/web-dev-320.png');
+  }
 }
