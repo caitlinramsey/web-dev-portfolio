@@ -2,7 +2,7 @@ import "./navigation.css";
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-import Logo from "../../assets/logo-white-thick.png";
+import Logo from "../../assets/logos/logo-white-thick.png";
 
 function Navigation() {
   const location = useLocation();

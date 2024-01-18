@@ -21,9 +21,11 @@
 .logo-projects {
     display: flex;
     justify-content: center;
+    gap: 5rem;
 }
 
-.ddclogo {
+.ddclogo,
+.rocketlogo {
     width: 40rem;
     height: auto;
     border-radius: 2rem;

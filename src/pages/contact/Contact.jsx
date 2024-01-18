@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import navLogo from "../../assets/logo-white-thick.png";
+import navLogo from "../../assets/logos/logo-white-thick.png";
 import "./contact.css";
 import { Slide } from "react-awesome-reveal";
 
