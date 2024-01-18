@@ -38,10 +38,9 @@ const Contact = () => {
   };
 
   return (
-    <Slide direction="right" triggerOnce>
-      <section id="contact">
-        <h1 className="contact-me text-center">Contact Me</h1>
-
+    <section id="contact">
+      <h1 className="contact-me text-center">Contact Me</h1>
+      <Slide direction="right" triggerOnce>
         <Container className="contact-container">
           <div className="contact-form">
             <input
@@ -115,8 +114,8 @@ const Contact = () => {
             </a>
           </div>
         </Container>
-      </section>
-    </Slide>
+      </Slide>
+    </section>
   );
 };
 
