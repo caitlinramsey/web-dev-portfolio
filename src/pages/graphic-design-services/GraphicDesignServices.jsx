@@ -24,13 +24,17 @@ function GraphicDesignServices() {
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
-              <p>Photography and editing services available.</p>
+              <p>Wireframing experience using Figma.</p>
+            </li>
+            <li>
+              <FaCheckDouble className="graphic-design-service-name-icon" />
+              <p>Photography and photo editing services available.</p>
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
               <p>
                 Experience in managing and creating content for professional
-                Facebook, Instagram, and X accounts.
+                Facebook, TiktTok, Instagram, and X accounts.
               </p>
             </li>
             <li>
