@@ -5,8 +5,7 @@
 }
 
 #web-dev-services {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(77, 77, 77, 1) 50%, rgba(0, 0, 0, 1) 100%);
+  background: rgb(47, 47, 47);
   min-height: 100vh;
 }
 
@@ -18,7 +17,8 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-transform: none;
-  background-color: var(--header-background);
+  border: solid 2px white;
+  background-color: transparent;
 }
 
 .web-dev-services-container {

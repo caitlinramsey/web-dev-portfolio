@@ -8,14 +8,14 @@
   width: 100vw;
   min-height: 100vh;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
 }
 
 #about-me h1 {
   font-size: 4rem;
   font-family: 'Allerta Stencil', sans-serif;
   text-transform: none;
-  background-color: var(--about-header);
+  border: solid 2px white;
+  background-color: transparent;
 }
 
 .about-me-container {

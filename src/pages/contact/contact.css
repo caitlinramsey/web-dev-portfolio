@@ -8,15 +8,15 @@
 }
 
 #contact {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 120, 120, 1) 100%);
+  background: rgb(34, 34, 34);
 }
 
 #contact h1 {
   font-size: 4rem;
   font-family: 'Allerta Stencil', sans-serif;
   text-transform: none;
-  background-color: var(--submit-background);
+  border: solid 2px white;
+  background-color: transparent;
 }
 
 .contact-container {

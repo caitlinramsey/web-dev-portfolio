@@ -7,9 +7,18 @@
     background-color: var(--advertising-background);
 }
 
+.advertising-projects-title {
+    border: solid 2px white;
+    background-color: transparent;
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
 .figma-title,
 .canva-title {
-    border: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .tiktok-figma {
@@ -29,14 +38,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
-}
-
-.advertising-projects-title {
-    background-color: var(--advertising-header);
-    text-transform: none;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-family: 'Allerta Stencil', sans-serif;
 }
 
 .equistaff,

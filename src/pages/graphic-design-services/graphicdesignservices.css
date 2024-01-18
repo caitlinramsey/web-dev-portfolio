@@ -16,7 +16,8 @@
   margin-bottom: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: var(--header-background);
+  border: solid 2px white;
+  background-color: transparent;
   text-transform: none;
 }
 

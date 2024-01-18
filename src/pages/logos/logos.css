@@ -9,7 +9,8 @@
 }
 
 .logo-title {
-    background-color: var(--logo-title);
+    border: solid 2px white;
+    background-color: transparent;
     text-transform: none;
     padding-top: 1rem;
     padding-bottom: 1rem;

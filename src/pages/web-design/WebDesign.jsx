@@ -7,7 +7,7 @@ import tiktokFigma from '../../assets/graphic-design/figma/tiktok.png';
 function WebDesign() {
   return (
     <section id="web-design-projects">
-      <h1 className="web-design-projects-title">Graphic Design Projects</h1>
+      <h1 className="web-design-projects-title">Web Design</h1>
       <Container className="web-design-container">
         <Slide direction="left" triggerOnce>
           <div className="figma">
