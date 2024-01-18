@@ -32,6 +32,7 @@
   background-repeat: no-repeat;
   width: 90%;
   height: 50rem;
+  border: 3px solid rgb(194, 194, 194);
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -40,6 +41,7 @@
   font-size: 1.5rem;
   background-color: var(--about-bg);
   padding: .5rem;
+  border: 1rem double white;
   border-radius: 1rem;
   opacity: .9;
 }
