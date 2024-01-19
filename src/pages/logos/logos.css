@@ -35,20 +35,53 @@
     border-radius: 2rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .ddclogo,
+    .rocketlogo,
+    .balloonlogo,
+    .pandalogo {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ddclogo,
+    .rocketlogo,
+    .balloonlogo,
+    .pandalogo {
+        width: 20rem;
+    }
+}
+
 @media screen and (max-width: 425px) {
-    .ddclogo {
+    .logo-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ddclogo,
+    .rocketlogo,
+    .balloonlogo,
+    .pandalogo {
         width: 25rem;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .ddclogo {
+    .ddclogo,
+    .rocketlogo,
+    .balloonlogo,
+    .pandalogo {
         width: 20rem;
+        margin: auto;
     }
 }
 
-@media screen and (max-width: 375px) {
-    .ddclogo {
+@media screen and (max-width: 320px) {
+    .ddclogo,
+    .rocketlogo,
+    .balloonlogo,
+    .pandalogo {
         width: 15rem;
     }
 }
