@@ -15,6 +15,11 @@
 .tiktok-figma {
     max-width: 100%;
     height: auto;
+    padding-bottom: 1rem;
+}
+
+.sign-up {
+    min-width: 100%;
 }
 
 .web-design-container {
@@ -34,5 +39,9 @@
     .web-design-container {
         margin: auto;
         max-width: 950px;
+    }
+
+    .sign-up {
+        max-width: 90%;
     }
 }

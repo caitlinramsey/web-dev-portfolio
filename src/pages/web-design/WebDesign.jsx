@@ -3,6 +3,7 @@ import "./webdesign.css";
 import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
 import tiktokFigma from '../../assets/graphic-design/figma/tiktok.png';
+import signUp from '../../assets/graphic-design/figma/signup.png';
 
 function WebDesign() {
   return (
@@ -16,6 +17,7 @@ function WebDesign() {
             <a href="https://www.figma.com/proto/yaGrdqtrMlKF5XaEIIhARp/First-Design-Challenge---TikTok-MockUp?type=design&node-id=3-2&t=DdWEUzB4UmafCJc9-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2" target="_blank" rel="noopener noreferrer">
               <img src={tiktokFigma} className='tiktok-figma' alt='a design I made in Figma that is a recreation of tiktok' />
             </a>
+            <img src={signUp} className='sign-up' alt='a design I made in Figma that is a signup page' />
           </div>
         </Slide>
       </Container>
