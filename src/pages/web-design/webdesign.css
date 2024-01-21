@@ -18,8 +18,10 @@
     padding-bottom: 1rem;
 }
 
-.sign-up {
+.sign-up,
+.credit-card-form {
     min-width: 100%;
+    margin-bottom: 1rem;
 }
 
 .web-design-container {
@@ -41,7 +43,8 @@
         max-width: 950px;
     }
 
-    .sign-up {
+    .sign-up,
+    .credit-card-form {
         max-width: 90%;
     }
 }

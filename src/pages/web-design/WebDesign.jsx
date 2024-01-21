@@ -4,6 +4,7 @@ import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
 import tiktokFigma from '../../assets/graphic-design/figma/tiktok.png';
 import signUp from '../../assets/graphic-design/figma/signup.png';
+import creditCardForm from '../../assets/graphic-design/figma/credit-card-form.png';
 
 function WebDesign() {
   return (
@@ -18,6 +19,7 @@ function WebDesign() {
               <img src={tiktokFigma} className='tiktok-figma' alt='a design I made in Figma that is a recreation of tiktok' />
             </a>
             <img src={signUp} className='sign-up' alt='a design I made in Figma that is a signup page' />
+            <img src={creditCardForm} className='credit-card-form' alt='a design I made in Figma that is a credit card form' />
           </div>
         </Slide>
       </Container>
