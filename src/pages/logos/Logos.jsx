@@ -7,6 +7,7 @@ import balloonLogo from '../../assets/graphic-design/logos/balloon.png';
 import pandaLogo from '../../assets/graphic-design/logos/panda.png';
 import inItsPlace from '../../assets/graphic-design/logos/in-its-place.png';
 import pugIcon from '../../assets/graphic-design/logos/pug-icon.png';
+import theRoastedBean from '../../assets/graphic-design/logos/the-roasted-bean.png';
 
 function Logos() {
     return (
@@ -19,6 +20,7 @@ function Logos() {
                 <img src={pandaLogo} className='rocketlogo' alt="a panda logo from an exercise I did" />
                 <img src={inItsPlace} className='initsplace' alt="a logo for a cleaning company" />
                 <img src={pugIcon} className='pug-icon' alt='a design I made in Canva that is an app icon' />
+                <img src={theRoastedBean} className='the-roasted-bean' alt='a logo for a coffee shop' />
                 <img src={ddcLogo} className='ddclogo' alt="the logo for my company" />
                 <img src={rocketLogo} className='rocketlogo' alt="a rocket logo from an exercise I did" />
                 <img src={balloonLogo} className='balloonlogo' alt="a hot air balloon logo from an exercise I did" />
