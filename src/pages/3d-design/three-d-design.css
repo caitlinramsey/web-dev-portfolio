@@ -1,0 +1,45 @@
+:root {
+    --three-d-design-background: rgb(16, 18, 18);
+}
+
+#three-d-design-projects {
+    background-color: var(--three-d-design-background);
+    height: 100%;
+}
+
+.three-d-design-projects-title {
+    border: solid 2px white;
+    background-color: transparent;
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.three-d-design-container {
+    padding-bottom: 5rem;
+}
+
+.maya-title {
+    border-bottom: 1px solid white;
+}
+
+.maya-video {
+    width: 100%;
+    max-width: 80rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .maya-video {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #three-d-design-projects {
+        height: 100vh;
+    }
+}
