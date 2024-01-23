@@ -30,7 +30,8 @@
 .rocketlogo,
 .balloonlogo,
 .pandalogo,
-.initsplace {
+.initsplace,
+.pug-icon {
     width: 40rem;
     height: auto;
     border-radius: 2rem;
@@ -41,7 +42,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 35rem;
     }
 }
@@ -51,7 +53,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 25rem;
     }
 }
@@ -61,7 +64,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 22rem;
     }
 }
@@ -71,7 +75,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 20rem;
     }
 }
@@ -81,7 +86,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 14rem;
         margin: auto;
     }
@@ -97,7 +103,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 25rem;
     }
 }
@@ -107,7 +114,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 23rem;
         margin: auto;
     }
@@ -118,7 +126,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 20rem;
         margin: auto;
     }
@@ -129,7 +138,8 @@
     .rocketlogo,
     .balloonlogo,
     .pandalogo,
-    .initsplace {
+    .initsplace,
+    .pug-icon {
         width: 15rem;
     }
 }
