@@ -39,7 +39,8 @@
 .pug-icon,
 .the-roasted-bean,
 .sven-the-fjord,
-.nordic-fjord-photo {
+.nordic-fjord-photo,
+.onward {
     width: 40rem;
     height: auto;
     border-radius: 2rem;
@@ -58,7 +59,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 35rem;
     }
 }
@@ -76,7 +78,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 25rem;
     }
 }
@@ -94,7 +97,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 22rem;
     }
 }
@@ -112,7 +116,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 20rem;
     }
 }
@@ -130,7 +135,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 14rem;
         margin: auto;
     }
@@ -154,7 +160,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 25rem;
     }
 }
@@ -172,7 +179,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 23rem;
         margin: auto;
     }
@@ -192,7 +200,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 20rem;
         margin: auto;
     }
@@ -211,7 +220,8 @@
     .pug-icon,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo {
+    .nordic-fjord-photo,
+    .onward {
         width: 17rem;
     }
 }

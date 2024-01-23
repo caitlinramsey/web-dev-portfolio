@@ -10,6 +10,7 @@ import pugIcon from '../../assets/graphic-design/logos/pug-icon.png';
 import theRoastedBean from '../../assets/graphic-design/logos/the-roasted-bean.png';
 import svenTheFjord from '../../assets/graphic-design/logos/sven-the-fjord.png';
 import nordicFjordPhoto from '../../assets/graphic-design/logos/nordic-fjord-photography.png';
+import onward from '../../assets/graphic-design/logos/onward.png';
 
 function Logos() {
     return (
@@ -26,6 +27,7 @@ function Logos() {
                 <img src={theRoastedBean} className='the-roasted-bean' alt='a logo for a coffee shop' />
                 <img src={svenTheFjord} className='sven-the-fjord' alt="a logo for for a horse brand" />
                 <img src={ddcLogo} className='ddclogo' alt="the logo for my company" />
+                <img src={onward} className='onward' alt="the logo for a driverless car company" />
                 <img src={rocketLogo} className='rocketlogo' alt="a rocket logo from an exercise I did" />
                 <img src={balloonLogo} className='balloonlogo' alt="a hot air balloon logo from an exercise I did" />
               </div>
