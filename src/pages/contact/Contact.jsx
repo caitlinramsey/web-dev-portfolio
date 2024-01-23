@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import navLogo from "../../assets/logos/logo-white-thick.png";
+import navLogo from "../../assets/logos/nordic-fjord-photography-white.png";
 import "./contact.css";
 import { Slide } from "react-awesome-reveal";
 
@@ -107,9 +107,9 @@ const Contact = () => {
 
           <div className="photography pb-5 text-center">
             <h4 className="photography text-white pb-2">
-              Want to see my photography and design? Click the logo.
+              Want to see my photography? Click the logo!
             </h4>
-            <a href="https://doubledowncreations.com/" className="my-logo">
+            <a href="https://www.nordicfjordphoto.com/" className="my-logo">
               <img src={navLogo} width="250px" alt="logo" />
             </a>
           </div>
