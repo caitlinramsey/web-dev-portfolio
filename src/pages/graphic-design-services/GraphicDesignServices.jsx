@@ -14,7 +14,7 @@ function GraphicDesignServices() {
       <Container className="graphic-design-services-container">
         <article className="graphic-design-service">
           <div className="graphic-design-service-header p-4">
-            <h2>Graphic Design | 3D Design | Social Media Management</h2>
+            <h2>Graphic Design | Web Design | Social Media Management</h2>
           </div>
 
           <ul className="graphic-design-service-name p-4 pt-5">
@@ -24,7 +24,11 @@ function GraphicDesignServices() {
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
-              <p>Wireframing experience using Figma.</p>
+              <p>Wireframing available using Figma.</p>
+            </li>
+            <li>
+              <FaCheckDouble className="graphic-design-service-name-icon" />
+              <p>Website design, branding, and logo creation services available.</p>
             </li>
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
@@ -44,7 +48,7 @@ function GraphicDesignServices() {
             <li>
               <FaCheckDouble className="graphic-design-service-name-icon" />
               <p>
-                Experience managing multiple social media accounts through
+                Experience managing multiple social media accounts and posting schedules through
                 AgoraPulse.
               </p>
             </li>

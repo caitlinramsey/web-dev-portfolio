@@ -11,7 +11,8 @@ import {
     FacebookIcon,
     LinkedInIcon,
     WordPressIcon,
-    SlackIcon
+    SlackIcon,
+    FigmaIcon
   } from "../Icons";
   
   export default function GraphicDesignSkills() {
@@ -20,7 +21,7 @@ import {
         <Slide direction="right" triggerOnce>
           <div className="graphic-design-skills-container mx-auto justify-content-center">
             <div className="graphic-design-section-title text-decoration-underline">
-              <h3>Graphic Design | 3D Design | Social Media Skills</h3>
+              <h3>Graphic Design | Web Design | 3D Design | Social Media Skills</h3>
             </div>
             <div className="graphic-design-skills-section">
               <div className="graphic-design-skills-icons">
@@ -38,6 +39,10 @@ import {
                     divClassName="graphic-design-skill-div"
                   />
                   <AfterEffectsIcon
+                    iconClassName="graphic-design-skill-icon"
+                    divClassName="graphic-design-skill-div"
+                  />
+                  <FigmaIcon
                     iconClassName="graphic-design-skill-icon"
                     divClassName="graphic-design-skill-div"
                   />

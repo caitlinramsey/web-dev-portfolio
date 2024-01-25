@@ -13,6 +13,7 @@ import mayaIcon from '../../assets/icons/maya-original.svg';
 import premiereProIcon from '../../assets/icons/premierepro-original.svg';
 import wordpressIcon from '../../assets/icons/wordpress-plain.svg';
 import slackIcon from '../../assets/icons/slack-original.svg';
+import figmaIcon from '../../assets/icons/figma.svg';
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -484,6 +485,20 @@ export function SlackIcon({ divClassName, iconClassName, showText }) {
       iconTitle="Slack"
       altText="Slack Icon"
       iconName="Slack"
+      iconClassName={iconClassName}
+      showText={showText}
+    />
+  );
+}
+
+export function FigmaIcon({ divClassName, iconClassName, showText }) {
+  return (
+    <SkillIcon
+      divClassName={divClassName}
+      iconSrc={figmaIcon}
+      iconTitle="Figma"
+      altText="Figma Icon"
+      iconName="Figma"
       iconClassName={iconClassName}
       showText={showText}
     />
