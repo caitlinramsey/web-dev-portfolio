@@ -2,14 +2,15 @@
   --services-background: pink;
   --header-background: hotpink;
   --hover: orchid;
+  --black: black;
 }
 
 #graphic-design-services {
   min-height: 100vh;
-  background-color: black;
+  background-color: var(--black);
 }
 
-#graphic-design-services h1 {
+.graphic-design-services-title {
   text-align: center;
   font-size: 4rem;
   font-family: 'Allerta Stencil', sans-serif;
@@ -22,17 +23,25 @@
 }
 
 .graphic-design-services-container {
-  padding-left: 5rem;
-  padding-right: 5rem;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.graphic-design-services-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
 
 .graphic-design-service {
   background: var(--services-background);
   border-radius: 2rem;
-  border: 1px solid var(--header-background);
-  height: fit-content;
-  transition: var(--transition);
+  width: 23rem;
+  height: 27rem;
+  margin: auto;
 }
 
 .graphic-design-service-header {
@@ -49,28 +58,34 @@
 
 .graphic-design-service-name li {
   display: flex;
-  gap: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.graphic-design-service-name-icon {
-  margin-top: .4rem;
+.gd-price {
+  background-color: transparent;
+  font-size: 2.5rem;
+  color: var(--black);
+  text-transform: none;
 }
 
-.graphic-design-service-name p {
+.gd-desc {
   font-size: 1.2rem;
-  font-family: "Preahvihear", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
-  #graphic-design-services {
-    padding-bottom: 2rem;
+  .graphic-design-service {
+    width: 25rem;
   }
 }
 
 @media screen and (max-width: 820px) {
-  #graphic-design-services h1 {
+  .graphic-design-services-title {
     font-size: 3rem;
+  }
+
+  .graphic-design-service {
+    width: 40rem;
   }
 }
 
@@ -84,7 +99,7 @@
 }
 
 @media screen and (max-width: 430px) {
-  #graphic-design-services h1 {
+  .graphic-design-services-title {
     font-size: 2rem;
   }
 
@@ -94,7 +109,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  #graphic-design-services h1 {
+  .graphic-design-services-title {
     font-size: 2rem;
   }
 }
@@ -102,5 +117,15 @@
 @media screen and (max-width: 325px) {
   .graphic-design-service-header h2 {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .gd-price {
+    font-size: 2rem;
+  }
+  
+  .gd-desc {
+    font-size: 1rem;
   }
 }

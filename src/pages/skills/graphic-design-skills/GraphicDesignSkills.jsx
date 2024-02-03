@@ -10,7 +10,7 @@ import {
     MayaIcon,
     FacebookIcon,
     LinkedInIcon,
-    WordPressIcon,
+    // WordPressIcon,
     SlackIcon,
     FigmaIcon
   } from "../Icons";
@@ -59,10 +59,10 @@ import {
                   iconClassName="graphic-design-skill-icon" 
                   divClassName="graphic-design-skill-div" 
                   />
-                  <WordPressIcon 
+                  {/* <WordPressIcon 
                   iconClassName="graphic-design-skill-icon" 
                   divClassName="graphic-design-skill-div" 
-                  />
+                  /> */}
                   <SlackIcon 
                   iconClassName="graphic-design-skill-icon" 
                   divClassName="graphic-design-skill-div" 
