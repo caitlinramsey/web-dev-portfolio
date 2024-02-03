@@ -8,12 +8,6 @@
     margin-top: 1rem;
 }
 
-.graphic-design-section-title {
-    font-size: 1rem;
-    text-underline-offset: .5rem;
-    color: var(--graphic-design-title);
-}
-
 .graphic-design-skills-icons {
     display: flex;
     justify-content: center;
@@ -45,17 +39,5 @@
     .graphic-design-skills-icons {
         display: flex;
         flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .graphic-design-section-title h3 {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .graphic-design-section-title h3 {
-        font-size: .9rem;
     }
 }

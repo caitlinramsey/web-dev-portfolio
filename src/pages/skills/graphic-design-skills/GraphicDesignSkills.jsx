@@ -20,9 +20,6 @@ import {
       <section id="graphic-design-skills" className="text-center mx-auto">
         <Slide direction="right" triggerOnce>
           <div className="graphic-design-skills-container mx-auto justify-content-center">
-            <div className="graphic-design-section-title text-decoration-underline">
-              <h3>Graphic Design | Web Design | 3D Design | Social Media Skills</h3>
-            </div>
             <div className="graphic-design-skills-section">
               <div className="graphic-design-skills-icons">
                 <Slide cascade damping={0.08} triggerOnce>
