@@ -14,6 +14,7 @@ import premiereProIcon from '../../assets/icons/premierepro-original.svg';
 import wordpressIcon from '../../assets/icons/wordpress-plain.svg';
 import slackIcon from '../../assets/icons/slack-original.svg';
 import figmaIcon from '../../assets/icons/figma.svg';
+import tailwindIcon from '../../assets/icons/tailwind.svg';
 
 export function ReactIcon({ divClassName, iconClassName, showText }) {
   return (
@@ -75,7 +76,7 @@ export function TailwindIcon({ divClassName, iconClassName, showText }) {
   return (
     <SkillIcon
       divClassName={divClassName}
-      iconSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      iconSrc={tailwindIcon}
       iconTitle="Tailwind"
       altText="Tailwind Icon"
       iconName="Tailwind"
