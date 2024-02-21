@@ -1,19 +1,19 @@
 import './logos.css';
 import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
-import pandaLogo from '../../assets/graphic-design/mockups/logos/bamboo-panda-conservation.jpg';
-import nordicFjordPhoto from '../../assets/graphic-design/mockups/logos/nordic-fjord-photo.jpg';
-import inItsPlace from '../../assets/graphic-design/mockups/logos/initsplace.jpg';
-import ddcLogo from '../../assets/graphic-design/mockups/logos/ddc-logo.jpg';
-import theRoastedBean from '../../assets/graphic-design/mockups/logos/the-roasted-bean.jpg';
-import svenTheFjord from '../../assets/graphic-design/mockups/logos/sven-the-fjord-pink.jpg';
-import flintAndFlame from '../../assets/graphic-design/mockups/logos/flint-and-flame.jpg';
-import snowdrop from '../../assets/graphic-design/mockups/logos/snowdrop.jpg';
-import onward from '../../assets/graphic-design/mockups/logos/onward.jpg';
-import pitch from '../../assets/graphic-design/mockups/logos/pitch.jpg';
-import pugIcon from '../../assets/graphic-design/mockups/logos/pug-icon.jpg';
-import rocketLogo from '../../assets/graphic-design/mockups/logos/rocketlogo.jpg';
-import balloonLogo from '../../assets/graphic-design/mockups/logos/balloon-logo.jpg';
+import pandaLogo from '../../assets/graphic-design/mockups/logos/bamboo-panda-conservation.webp';
+import nordicFjordPhoto from '../../assets/graphic-design/mockups/logos/nordic-fjord-photo.webp';
+import inItsPlace from '../../assets/graphic-design/mockups/logos/initsplace.webp';
+import ddcLogo from '../../assets/graphic-design/mockups/logos/ddc-logo.webp';
+import theRoastedBean from '../../assets/graphic-design/mockups/logos/the-roasted-bean.webp';
+import svenTheFjord from '../../assets/graphic-design/mockups/logos/sven-the-fjord-pink.webp';
+import flintAndFlame from '../../assets/graphic-design/mockups/logos/flint-and-flame.webp';
+import snowdrop from '../../assets/graphic-design/mockups/logos/snowdrop.webp';
+import onward from '../../assets/graphic-design/mockups/logos/onward.webp';
+import pitch from '../../assets/graphic-design/mockups/logos/pitch.webp';
+import pugIcon from '../../assets/graphic-design/mockups/logos/pug-icon.webp';
+import rocketLogo from '../../assets/graphic-design/mockups/logos/rocketlogo.webp';
+import balloonLogo from '../../assets/graphic-design/mockups/logos/balloon-logo.webp';
 
 function Logos() {
     return (
