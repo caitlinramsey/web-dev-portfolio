@@ -26,135 +26,160 @@
     padding-bottom: 2rem;
 }
 
-.ddclogo {
+.ddclogo,
+.initsplace {
     width: 40rem;
-    height: 40rem;
+    height: 60rem;
     border-radius: 2rem;
 }
 
-.rocketlogo,
-.balloonlogo,
+.nordic-fjord-photo {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
 .pandalogo,
-.initsplace,
-.pug-icon,
 .the-roasted-bean,
 .sven-the-fjord,
-.nordic-fjord-photo,
-.onward,
+.flint-and-flame,
 .snowdrop,
+.onward,
 .pitch,
-.flint-and-flame {
+.pug-icon,
+.rocketlogo,
+.balloonlogo {
     width: 40rem;
     height: auto;
     border-radius: 2rem;
 }
 
 @media screen and (max-width: 1280px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 35rem;
-        height: 35rem;
+        height: 50rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 26rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 35rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 25rem;
-        height: 25rem;
+        height: 35rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 19rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 25rem;
     }
 }
 
 @media screen and (max-width: 820px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 22rem;
-        height: 22rem;
+        height: 30rem;
     }
-    
-    .rocketlogo,
-    .balloonlogo,
+
+    .nordic-fjord-photo {
+        height: 17rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 22rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 20rem;
-        height: 20rem;
+        height: 30rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 15rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 20rem;
     }
 }
 
 @media screen and (max-width: 540px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 14rem;
-        height: 14rem;
+        height: 20rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 11rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 14rem;
         margin: auto;
     }
@@ -166,92 +191,104 @@
         flex-direction: column;
     }
 
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 25rem;
-        height: 25rem;
+        height: 35rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 18rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 25rem;
     }
 }
 
 @media screen and (max-width: 414px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 23rem;
-        height: 23rem;
+        height: 32rem;
+        margin: auto;
     }
 
-    .rocketlogo,
-    .balloonlogo,
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 23rem;
         margin: auto;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 20rem;
-        height: 20rem;
-        margin: auto;
+        height: 27rem;
     }
-    
-    .rocketlogo,
-    .balloonlogo,
+
+    .nordic-fjord-photo {
+        height: 15rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 20rem;
         margin: auto;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .ddclogo {
+    .ddclogo,
+    .initsplace {
         width: 17rem;
-        height: 17rem;
+        height: 25rem;
     }
 
-    .rocketlogo,
-    .balloonlogo,
+    .nordic-fjord-photo {
+        height: 13rem;
+    }
+
     .pandalogo,
-    .initsplace,
-    .pug-icon,
+    .nordic-fjord-photo,
     .the-roasted-bean,
     .sven-the-fjord,
-    .nordic-fjord-photo,
-    .onward,
+    .flint-and-flame,
     .snowdrop,
+    .onward,
     .pitch,
-    .flint-and-flame {
+    .pug-icon,
+    .rocketlogo,
+    .balloonlogo {
         width: 17rem;
     }
 }
