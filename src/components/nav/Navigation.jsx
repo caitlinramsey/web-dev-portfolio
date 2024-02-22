@@ -111,6 +111,9 @@ function Navigation() {
                   <NavDropdown.Item as={Link} to="/webdesign">
                     Web Design
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/printdesign">
+                    Print Design
+                  </NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/3Ddesign">
                     3-D Design
                   </NavDropdown.Item>

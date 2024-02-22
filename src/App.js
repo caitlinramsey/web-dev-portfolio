@@ -9,6 +9,7 @@ import WebDevServices from '../src/pages/web-dev-services/WebDevServices';
 import Logos from '../src/pages/logos/Logos';
 import Advertising from '../src/pages/advertising/Advertising';
 import WebDesign from '../src/pages/web-design/WebDesign';
+import PrintDesign from "./pages/print-design/PrintDesign";
 import ThreeDDesign from "./pages/3d-design/ThreeDDesign";
 import GraphicDesignServices from '../src/pages/graphic-design-services/GraphicDesignServices';
 import Contact from '../src/pages/contact/Contact';
@@ -39,6 +40,7 @@ function AppWithNavigation() {
           <Route exact path="/logos" element={<Logos />} />
           <Route exact path="/advertising" element={<Advertising />} />
           <Route exact path="/webdesign" element={<WebDesign />} />
+          <Route exact path="/printdesign" element={<PrintDesign />} />
           <Route exact path="/3Ddesign" element={<ThreeDDesign />} />
           <Route exact path="/graphicdesignservices" element={<GraphicDesignServices />} />
           <Route exact path="/contact" element={<Contact />} />

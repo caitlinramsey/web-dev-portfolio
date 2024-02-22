@@ -31,7 +31,6 @@ function Advertising() {
     <section id="advertising-projects">
       <h1 className="advertising-projects-title">Advertising</h1>
       <Container className="advertising-container">
-
         <Slide direction="left" triggerOnce>
           <div className="canva">
             <h1 className="canva-title text-center bg-transparent mt-3 mb-3 pb-2">Canva | Adobe Creative Suite</h1>
