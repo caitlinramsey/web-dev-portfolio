@@ -12,15 +12,11 @@
 }
 
 .tiktok-figma,
-.landing-page {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-}
-
+.landing-page,
 .sign-up,
 .credit-card-form {
-    min-width: 100%;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 1rem;
 }
 
@@ -41,10 +37,5 @@
     .web-design-container {
         margin: auto;
         max-width: 950px;
-    }
-
-    .sign-up,
-    .credit-card-form {
-        max-width: 90%;
     }
 }
