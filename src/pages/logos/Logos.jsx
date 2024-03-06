@@ -1,3 +1,4 @@
+import React from "react";
 import './logos.css';
 import { Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";

@@ -26,9 +26,9 @@ export default function Home() {
             />
             <div className="social-media">
               <ul>
-                {/* <li><a href="https://www.instagram.com/nordicfjordphoto/"><i className="fab fa-instagram instagram"></i></a></li> */}
+                <li><a href="https://www.linkedin.com/in/caitlin-ramsey/"><i className="fa-brands fa-linkedin-in"></i></a></li>
                 <li><a href="https://www.facebook.com/doubledownc"><i className="fab fa-facebook-f facebook"></i></a></li>
-                {/* <li><a href="https://www.tiktok.com/@doubledowncreations?lang=en"><i className="fab fa-tiktok tiktok"></i></a></li> */}
+                <li><a href="https://github.com/caitlinramsey"><i class="fa-brands fa-github"></i></a></li>
               </ul>
             </div>
           </div>
