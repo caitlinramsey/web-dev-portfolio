@@ -76,7 +76,7 @@ function FrontEndProject() {
                   </Col>
                   <Col md={6}>
                     <div className="fe-project-info d-flex flex-column justify-content-center h-100">
-                      <p className="fe-project-description text-white fs-5 mt-3 mb-3">
+                      <p className="fe-project-description text-white mt-3 mb-3">
                         {description}
                       </p>
                       <div className="fe-project-links d-flex justify-content-center">

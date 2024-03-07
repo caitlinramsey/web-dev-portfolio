@@ -54,6 +54,7 @@
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
 .fe-project-item h4 {
@@ -91,14 +92,36 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1024px) {
+    .img-fluid {
+        min-height: 20rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    #fe-project h1 {
-        font-size: 3rem;
+    .img-fluid {
+        min-height: 15rem;
+    }
+
+    .fe-project-description {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 430px) {
     #fe-project h1 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-fluid {
+        min-height: 10rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fe-project-description {
+        font-size: .8rem;
     }
 }
