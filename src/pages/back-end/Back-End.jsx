@@ -5,7 +5,7 @@ import project3 from '../../assets/web-dev/employee-tracker.png'
 import project4 from '../../assets/web-dev/e-commerce-be.png'
 import project5 from '../../assets/web-dev/social-network-api.png'
 import { Slide } from "react-awesome-reveal";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import BackEndSkills from "../skills/back-end-skills/BackEndSkills";
 import './backendprojects.css'
 
@@ -64,35 +64,31 @@ function BackEndProject() {
       <BackEndSkills />
       <Container>
         <Slide direction="left" triggerOnce>
-          {projectInfoBackEnd.map(
-            ({ id, image, title, description, github, demo }) => {
-              return (
-                <div key={id}>
-                  <h3 className="be-project-title text-center text-white fs-1 mb-2">
-                    {title}
-                  </h3>
-                  <div className="be-project-image text-center d-block w-100">
-                    <img src={image} alt={title} />
-                  </div>
-                  <h4 className="be-project-description text-center text-white fs-5 mt-3 mb-3">
-                    {description}
-                  </h4>
-                  <div className="be-project-links d-flex justify-content-center pb-5">
-                    <a
-                      href={github}
-                      className="btn be-github-btn"
-                      target="-blank"
-                    >
-                      GitHub
-                    </a>
-                    <a href={demo} className="btn be-live-btn" target="-blank">
-                      Live Site
-                    </a>
-                  </div>
-                </div>
-              );
-            }
-          )}
+          {projectInfoBackEnd.map(({ id, image, title, description, github, demo }) => {
+            return (
+              <div key={id} className="fe-projects mb-5">
+                <h3 className="be-project-title text-center text-white fs-1 mb-3">
+                  {title}
+                </h3>
+                <Row>
+                  <Col md={6} className="d-flex jusitfy-content-center align-items-center">
+                    <img src={image} alt={title} className="img-fluid-be" />
+                  </Col>
+                  <Col md={6}>
+                    <div className="be-project-info d-flex flex-column justify-content-center h-100">
+                      <p className="be-project-description text-white mt-3 mb-3">
+                        {description}
+                      </p>
+                      <div className="be-project-links d-flex justify-content-center">
+                        <a href={github} className="btn be-github-btn mx-2" target="-blank">GitHub</a>
+                        <a href={demo} className="btn be-live-btn mx-2" target="-blank">Live Site</a>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            );
+          })}
         </Slide>
       </Container>
     </section>

@@ -2,13 +2,14 @@
   --be-project-hover: hotpink;
   --be-project-background: black;
   --be-hover-text: white;
-  --be-project-button-hover: grey;
+  --be-projects: #000000;
 }
 
 #be-project {
   background: rgb(34, 34, 34);
   margin: 0;
   padding: 0;
+  padding-bottom: 5rem;
 }
 
 #be-project h1 {
@@ -23,20 +24,23 @@
   text-transform: none;
 }
 
+.be-projects {
+  border: .3rem solid white;
+  background-color: var(--be-projects);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 .be-project-title {
   text-decoration: underline;
   text-underline-offset: .3rem;
 }
 
-.be-project-item-image {
-  border-radius: 1rem;
-  overflow: hidden;
-}
-
-.be-project-image img {
-  max-height: 30rem;
+.img-fluid-be {
+  min-height: 25rem;
   max-width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 .be-project-item h3 {
@@ -46,11 +50,11 @@
 .be-project-description {
   display: flex;
   justify-content: center;
-  background-color: var(--fe-description);
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
   margin: 0 auto;
+  font-size: 1.5rem;
 }
 
 .be-project-item h4 {
@@ -88,14 +92,36 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1024px) {
+  .img-fluid-be {
+      min-height: 20rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  #be-project h1 {
-      font-size: 3rem;
+  .img-fluid-be {
+      min-height: 15rem;
+  }
+
+  .be-project-description {
+      font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 430px) {
   #be-project h1 {
       font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-fluid-be {
+      min-height: 10rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .be-project-description {
+      font-size: .8rem;
   }
 }
