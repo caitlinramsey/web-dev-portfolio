@@ -186,6 +186,12 @@
     background-position: -18rem;
   }
 
+  .intro {
+    background-color: rgba(85, 85, 85, 0.5);
+    border: 1px solid white;
+    padding: .5rem;
+  }
+
   .header-container h1 {
     font-size: 3rem;
   }

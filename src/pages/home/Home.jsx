@@ -7,7 +7,7 @@ export default function Home() {
       <header id="header">
         <Container>
           <div className="header-container">
-          <h4 className="my-desc">
+            <h4 className="my-desc">
               Full-Stack Developer | Graphic Designer | Photographer
             </h4>
             <hr
@@ -19,8 +19,10 @@ export default function Home() {
                 opacity: "1",
               }}
             />
-            <h4 className="hello">Hello! I'm</h4>
-            <h1>Caitlin Ramsey</h1>
+            <div className="intro">
+              <h4 className="hello">Hello! I'm</h4>
+              <h1>Caitlin Ramsey</h1>
+            </div>
             <div id='code-gif' align="right">
               <img src="https://media.giphy.com/media/igRW3jH2LcCVzMqi5F/giphy.gif" width="300" alt="gif that says I'm a code blooded programmer" />
             </div>
