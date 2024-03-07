@@ -1,6 +1,5 @@
 :root {
   --name: rgb(255, 255, 255);
-  --desc: black;
 }
 
 #header {
@@ -17,10 +16,10 @@
 .my-desc {
   font-family: 'Playpen Sans', cursive;
   font-size: 2rem;
-  border: 5px solid black;
-  background-color: rgb(196, 196, 196, .7);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(85, 85, 85, 0.7);
   padding: .5rem;
-  color: var(--desc);
+  color: var(--name);
   text-align: center;
 }
 

@@ -12,8 +12,8 @@ export default function Home() {
             </h4>
             <hr
               style={{
-                background: "black",
-                color: "black",
+                background: "white",
+                color: "white",
                 borderColor: "white",
                 height: "3px",
                 opacity: "1",
