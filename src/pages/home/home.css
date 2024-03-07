@@ -200,7 +200,7 @@
   }
 
   .social-media ul {
-    margin-top: 30rem;
+    margin-top: 26rem;
     margin-left: 2rem;
     flex-direction: row;
   }
@@ -219,6 +219,17 @@
   #header {
     background-position: -21rem;
   }
+
+  .header-container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .social-media ul {
+    margin-top: 25rem;
+    margin-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -232,10 +243,6 @@
 }
 
 @media screen and (max-width: 375px) {
-  #header {
-    min-height: 120vh;
-  }
-
   .header-container h1 {
     font-size: 2rem;
   }
@@ -245,7 +252,7 @@
   }
 
   .social-media ul {
-    margin-top: 22rem;
+    margin-top: 26rem;
     margin-left: 0rem;
   }
 
@@ -271,10 +278,11 @@
 
 @media screen and (max-width: 320px) {
   #header {
-    background-position: -21rem;
+    background-position: -28rem;
   }
 
   .social-media ul {
+    margin-top: 30rem;
     margin-left: -1rem;
   }
 }
