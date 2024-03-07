@@ -1,11 +1,12 @@
 :root {
   --nav-background: hotpink;
   --nav-text: white;
-  --nav-bg: #000000;
+  --nav-drop: #313131;
+  --nav-bg: black;
 }
 
 .nav-link {
-  color: var(--nav-text);
+  color: var(--nav-text) !important;
 }
 
 .navbar {
@@ -36,7 +37,7 @@
 }
 
 .dropdown-menu {
-  background-color: var(--nav-bg);
+  background-color: var(--nav-drop);
 }
 
 .dropdown-item {
@@ -45,7 +46,7 @@
 
 .dropdown-item:hover {
   color: var(--nav-background);
-  background-color: var(--nav-bg);
+  background-color: var(--nav-drop);
 }
 
 .active {

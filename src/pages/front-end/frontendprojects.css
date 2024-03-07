@@ -2,13 +2,14 @@
     --fe-project-hover: hotpink;
     --fe-project-background: black;
     --fe-hover-text: white;
-    --fe-description: #5E5E5E;
+    --fe-projects: #000000;
 }
 
 #fe-project {
     background: rgb(34, 34, 34);
     margin: 0;
     padding: 0;
+    padding-bottom: 5rem;
 }
 
 #fe-project h1 {
@@ -23,20 +24,23 @@
     text-transform: none;
 }
 
+.fe-projects {
+    border: .3rem solid white;
+    background-color: var(--fe-projects);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 .fe-project-title {
     text-decoration: underline;
     text-underline-offset: .3rem;
 }
 
-.fe-project-item-image {
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-.fe-project-image img {
-    max-height: 30rem;
+.img-fluid {
+    min-height: 25rem;
     max-width: 100%;
     height: auto;
+    border-radius: 1rem;
 }
 
 .fe-project-item h3 {
@@ -46,7 +50,6 @@
 .fe-project-description {
     display: flex;
     justify-content: center;
-    background-color: var(--fe-description);
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;

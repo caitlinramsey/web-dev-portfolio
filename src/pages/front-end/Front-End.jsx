@@ -3,9 +3,9 @@ import project1 from "../../assets/web-dev/zooquarium.jpg";
 import project2 from "../../assets/web-dev/note-taker.png";
 import project3 from "../../assets/web-dev/weatherpro.png";
 import project4 from "../../assets/web-dev/workday-scheduler.png";
-import project5 from '../../assets/web-dev/password-generator.png'
+import project5 from '../../assets/web-dev/password-generator.png';
 import { Slide } from "react-awesome-reveal";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import FrontEndSkills from "../skills/front-end-skills/FrontEndSkills";
 import "./frontendprojects.css";
 
@@ -51,7 +51,7 @@ const projectInfoFrontEnd = [
     image: project5,
     title: "Password Generator",
     description:
-      "This robust password generator empowers users to craft highly secure and distinctive passwords tailored to their preferences. With an array of customizable options, users can specify the inclusion or exclusion of various elements, ensuring the generated password aligns precisely with their security requirements. Whether opting for a mix of uppercase and lowercase letters, numbers, symbols, or excluding specific characters, the tool provides granular control over the password creation process. By offering this level of customization, users can confidently generate passwords that not only meet stringent security standards but also seamlessly integrate into their unique password management strategies, enhancing overall digital safety.",
+      "This robust password generator empowers users to craft highly secure and distinctive passwords tailored to their preferences. With an array of customizable options, users can specify the inclusion or exclusion of various elements, ensuring the generated password aligns precisely with their security requirements. Whether opting for a mix of uppercase and lowercase letters, numbers, symbols, or excluding specific characters, the tool provides granular control over the password creation process.",
     github: "https://github.com/caitlinramsey/password-generator",
     demo: "https://caitlinramsey.github.io/password-generator/",
   },
@@ -64,35 +64,31 @@ function FrontEndProject() {
       <FrontEndSkills />
       <Container>
         <Slide direction="left" triggerOnce>
-          {projectInfoFrontEnd.map(
-            ({ id, image, title, description, github, demo }) => {
-              return (
-                <div key={id}>
-                  <h3 className="fe-project-title text-center text-white fs-1 mb-3">
-                    {title}
-                  </h3>
-                  <div className="fe-project-image text-center d-block w-100">
-                    <img src={image} alt={title} />
-                  </div>
-                  <h4 className="fe-project-description text-white fs-5 mt-3 mb-3">
-                    {description}
-                  </h4>
-                  <div className="fe-project-links d-flex justify-content-center pb-5">
-                    <a
-                      href={github}
-                      className="btn fe-github-btn"
-                      target="-blank"
-                    >
-                      GitHub
-                    </a>
-                    <a href={demo} className="btn fe-live-btn" target="-blank">
-                      Live Site
-                    </a>
-                  </div>
-                </div>
-              );
-            }
-          )}
+          {projectInfoFrontEnd.map(({ id, image, title, description, github, demo }) => {
+            return (
+              <div key={id} className="fe-projects mb-5">
+                <h3 className="fe-project-title text-center text-white fs-1 mb-3">
+                  {title}
+                </h3>
+                <Row>
+                  <Col md={6} className="d-flex justify-content-center align-items-center">
+                    <img src={image} alt={title} className="img-fluid" />
+                  </Col>
+                  <Col md={6}>
+                    <div className="fe-project-info d-flex flex-column justify-content-center h-100">
+                      <p className="fe-project-description text-white fs-5 mt-3 mb-3">
+                        {description}
+                      </p>
+                      <div className="fe-project-links d-flex justify-content-center">
+                        <a href={github} className="btn fe-github-btn mx-2" target="-blank">GitHub</a>
+                        <a href={demo} className="btn fe-live-btn mx-2" target="-blank">Live Site</a>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            );
+          })}
         </Slide>
       </Container>
     </section>
