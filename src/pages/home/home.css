@@ -8,10 +8,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  margin-top: -12rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 
 .header-container h1 {
-  font-family: "Preahvihear", sans-serif;
+  font-family: 'Playpen Sans', cursive;
   color: var(--name);
   background-color: transparent;
   text-transform: none;

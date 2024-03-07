@@ -1,7 +1,7 @@
 :root {
   --nav-background: hotpink;
   --nav-text: white;
-  --nav-bg: #333;
+  --nav-bg: #000000;
 }
 
 .nav-link {
@@ -9,10 +9,8 @@
 }
 
 .navbar {
-  background-image: url('../../assets/nav-bg/web-dev-header.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: 'Playpen Sans', cursive;
+  background-color: var(--nav-bg);
 }
 
 .navbar a {
@@ -58,34 +56,4 @@
   display: block;
   margin: auto;
   background-color: var(--nav-text);
-}
-
-@media screen and (max-width: 1024px) {
-  .navbar {
-    background-image: url('../../assets/nav-bg/web-dev-1024.png');
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-    background-image: url('../../assets/nav-bg/web-dev-768.png');
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .navbar {
-    background-image: url('../../assets/nav-bg/web-dev-425.png');
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .navbar {
-    background-image: url('../../assets/nav-bg/web-dev-375.png');
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .navbar {
-    background-image: url('../../assets/nav-bg/web-dev-320.png');
-  }
 }

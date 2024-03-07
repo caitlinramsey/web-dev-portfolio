@@ -48,8 +48,14 @@ function Navigation() {
     setShowGraphicDesignDropdown(false);
   };
 
+  const navbarStyle = {
+    backgroundColor: location.pathname === '/home' ? 'rgba(0, 0, 0, 0.6)' : 'var(--nav-bg)',
+    boxShadow: location.pathname === '/home' ? 'none' : '0 2px 4px rgba(0,0,0,.1)',
+    transition: 'all 0.3s ease',
+  }
+
   return (
-    <Navbar expand="lg" className="nav-outer navbar">
+    <Navbar expand="lg" className="nav-outer navbar" style={navbarStyle}>
       <Container className="nav-inner responsive wrapper">
         <Row className="align-items-center">
           <Col xs="12" lg="6" className="logo-col text-center text-lg-left mb-2 mb-lg-0">
