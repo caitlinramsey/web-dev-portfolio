@@ -2,13 +2,14 @@
     --fs-project-hover: hotpink;
     --fs-project-background: black;
     --fs-hover-text: white;
-    --fs-project-button-hover: grey;
+    --fs-projects: #000000;
 }
 
 #fs-project {
     background: rgb(34, 34, 34);
     margin: 0;
     padding: 0;
+    padding-bottom: 5rem;
 }
 
 #fs-project h1 {
@@ -23,20 +24,23 @@
     text-transform: none;
 }
 
+.fs-projects {
+    border: .3rem solid white;
+    background-color: var(--fs-projects);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 .fs-project-title {
     text-decoration: underline;
     text-underline-offset: .3rem;
 }
 
-.fs-project-item-image {
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-.fs-project-image img {
-    max-height: 30rem;
+.img-fluid-fs {
+    min-height: 25rem;
     max-width: 100%;
     height: auto;
+    border-radius: 1rem;
 }
 
 .fs-project-item h3 {
@@ -46,11 +50,11 @@
 .fs-project-description {
     display: flex;
     justify-content: center;
-    background-color: var(--fe-description);
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
 .fs-project-item h4 {
@@ -88,14 +92,36 @@
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1024px) {
+    .img-fluid-fs {
+        min-height: 20rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    #fs-project h1 {
-        font-size: 3rem;
+    .img-fluid-fs {
+        min-height: 15rem;
+    }
+
+    .fs-project-description {
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 430px) {
     #fs-project h1 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-fluid-fs {
+        min-height: 10rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fs-project-description {
+        font-size: .8rem;
     }
 }
