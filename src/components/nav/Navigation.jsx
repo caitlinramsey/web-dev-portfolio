@@ -49,7 +49,7 @@ function Navigation() {
   };
 
   const navbarStyle = {
-    backgroundColor: location.pathname === '/home' ? 'rgba(0, 0, 0, 0.6)' : 'var(--nav-bg)',
+    backgroundColor: location.pathname === '/home' ? 'rgba(0, 0, 0, 1)' : 'var(--nav-bg)',
     boxShadow: location.pathname === '/home' ? 'none' : '0 2px 4px rgba(0,0,0,.1)',
     transition: 'all 0.3s ease',
   }
